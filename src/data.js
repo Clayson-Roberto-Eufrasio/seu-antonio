@@ -1005,6 +1005,13 @@ export const WineTinto = [
 
 export const WineWhite = [
   {
+    title: "Arte de Argento Pinot Grigio",
+    value: "159,00",
+    image_url: "",
+    state: "AG",
+    description: "Uva: Pinot Grigio, apresenta uma coloração amarelo esverdeado com reflexos dourados, aromas de frutas tropicais, camomila e florais. No paladar, é leve, delicado, fresco e persistente, harmoniza com aves e queijos."
+  },
+  {
     title: "Thera Sauvignon Blanc",
     value: "210,00",
     image_url: "",
