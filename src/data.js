@@ -1029,6 +1029,20 @@ export const WineWhite = [
 
 export const WineRose = [
   {
+    title: "Tantehue Rosé",
+    value: "154,00",
+    image_url: "",
+    state: "CL",
+    description: "Uva: Cabernet Sauvignon, aroma rico em frutas com notas de morangos frescos, cerejas e framboesa, em boca frutado, com suaves fragrâncias florais com toques violeta, harmoniza com peixes, mariscos, aves e queijos frescos."
+  },
+  {
+    title: "Pardalito Vinho Verde DOC",
+    value: "154,00",
+    image_url: "",
+    state: "PT",
+    description: "Uva: Espadeiro, Vinhão, Borraçal, agradáveis aromas de frutas vermelhas frescas, como morango e framboesas, em boca as notas frutadas de destacam, além de acidez marcante, harmoniza com salada de frutas com sorvete, sushi, saladas."
+  },
+  {
     title: "Thera Rosé",
     value: "210,00",
     image_url: "",
