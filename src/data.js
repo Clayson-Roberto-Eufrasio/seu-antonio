@@ -1103,6 +1103,6 @@ export const Champagnes = [
     value: "890,00",
     image_url: "",
     state: "",
-    description: "Uva: chardonnay, pinot noir e pinot meunier, harmoniza com aperitivos, frutos do mar, tartar de peixe, queijo parmesão, salmão, torradas e massas"
+    description: "Uva: chardonnay, pinot noir e pinot meunier, harmoniza com aperitivos, frutos do mar, tartar de peixe, queijo parmesão, salmão, torradas e massas."
   }
 ]
