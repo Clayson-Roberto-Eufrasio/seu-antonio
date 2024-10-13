@@ -1005,20 +1005,6 @@ export const WineTinto = [
 
 export const WineWhite = [
   {
-    title: "Becas Sauvignon Blanc",
-    value: "150,00",
-    image_url: "",
-    state: "FR",
-    description: "Uva: Sauvignon Blanc"
-  },
-  {
-    title: "Perereca do Monte",
-    value: "154,00",
-    image_url: "",
-    state: "PT",
-    description: "Uva: Arinto, Bical, Fernão Pires. O Perereca do Monte Branco é um vinho branco refrescante com notas cítricas e de pêssego, equilibrado e ideal para acompanhar carnes brancas grelhadas, saladas e frutos do mar."
-  },
-  {
     title: "Thera Sauvignon Blanc",
     value: "210,00",
     image_url: "",
@@ -1048,13 +1034,6 @@ export const WineRose = [
     image_url: "",
     state: "FR",
     description: "Uva: Syrah Grenache"
-  },
-  {
-    title: "Becas Rosé",
-    value: "169,00",
-    image_url: "",
-    state: "FR",
-    description: "Uva: Grenache"
   },
   {
     title: "Villa Francioni Rosé",
