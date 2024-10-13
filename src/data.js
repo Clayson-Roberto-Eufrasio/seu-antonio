@@ -981,11 +981,25 @@ export const Beers = [
 
 export const WineTinto = [
   {
+    title: "Argento Malbec",
+    value: "152,00",
+    image_url: "",
+    state: "ARG",
+    description: "Uva: Malbec, aroma intenso lembrando ameixa, cerejas negras e violeta com notas amadeiradas, em boca é frutado com ataque inicial doce. Apresenta taninos macios e equilibrados, harmoniza com bruschetas, filé na manteiga e risoto de funghi."
+  },
+  {
     title: "Becas Carménère",
     value: "149,00",
     image_url: "",
     state: "CL",
     description: "Uva: Carménère, apresenta aromas de frutas vermelhas frescas, toque de temperos e especiarias,  em boca possui taninos macios, intenso e com frutas maduras, harmoniza com lombo suíno caramelizado"
+  },
+  {
+    title: "Vinho 12 e Mezzo Primitivo del Salento",
+    value: "248,00",
+    image_url: "",
+    state: "IT",
+    description: "Uva: Primitivo, aroma com toques de ameixa e cereja, notas de baunilha e cacau, em boca é um vinho de boa estrutura e final persistente, harmoniza com queijos de média intensidade, risoto ao ragu de fraldinha e vazio grelhado."
   },
   {
     title: "DV Catena Malbec Malbec",
@@ -1028,6 +1042,13 @@ export const WineWhite = [
 ]
 
 export const WineRose = [
+  {
+    title: "Conclave Reserva Rosé",
+    value: "166,00",
+    image_url: "",
+    state: "ARG",
+    description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
+  },
   {
     title: "Tantehue Rosé",
     value: "154,00",
