@@ -24,6 +24,24 @@ import MiniPastelDeBrie from "../src/images/Entradas/PastelBrieLogo.jpg"
 import MiniPastelDeCamarao from "../src/images/Entradas/PastelCamaraoLogo.jpg"
 import CamaraoNoVaral from "../src/images/Entradas/CamaraoNoVaralLogo.jpg"
 
+// Imagens de Principais
+import BacalhauConfitado from "../src/images/Principais/BacalhauLogo.jpg"
+import PolvoGlaceado from "../src/images/Principais/PolvoGlaceadoLogo.jpg"
+import SalmaoAValenciana from "../src/images/Principais/SalmaoAValencianaLogo.jpg"
+import PeixeNaCrosta from "../src/images/Principais/PeixeNaCrostraLogo.jpg"
+import CamaraoFlambado from "../src/images/Principais/CamaraoFlambladoLogo.jpg"
+import CamaraoCremoso from "../src/images/Principais/CamaraoCremosoLogo.jpg"
+import TornedorDeMignon from "../src/images/Principais/TornedorLogo.jpg"
+import EscalopeDeMignon from "../src/images/Principais/EscalopeLogo.jpg"
+import GnocchiDeBatata from "../src/images/Principais/NhoqueLogo.jpg"
+import RisottoDeCogumelos from "../src/images/Principais/RisotoDeCoumeloLogo.jpg"
+
+// Imagens de Para Compartilhar
+import PeixeMeuniereSeuAntonio from "../src/images/ParaCompartilhar/MuniereLogo.jpg"
+import MoquecaMista from "../src/images/ParaCompartilhar/MoquecaMistaLogo.jpg"
+import PaellaDeFrutosDoMar from "../src/images/ParaCompartilhar/PaellaLogo.jpg"
+import ParmegianaDeMignon from "../src/images/ParaCompartilhar/ParmegianaLogo.jpg"
+import PoseidonReiDosMares from "../src/images/ParaCompartilhar/PseidonLogo.jpg"
 
 export const Appetizer = [
   {
@@ -210,63 +228,63 @@ export const Mains = [
   {
     title: "Bacalhau Confitado à Portuguesa",
     value: "119,00",
-    image_url: "",
+    image_url: BacalhauConfitado,
     state: "",
     description: "Bacalhau e legumes confitados no azeite extra virgem com purê de batata."
   },
   {
     title: "Polvo Glaceado",
     value: "82,00",
-    image_url: "",
+    image_url: PolvoGlaceado,
     state: "",
     description: "Polvo glaceado em redução de limão, meio e shoyu, acompanho de musseline de batata"
   },
   {
     title: "Salmão à Valenciana",
     value: "89,00",
-    image_url: "",
+    image_url: SalmaoAValenciana,
     state: "",
     description: "Salmão grelhado com molho valenciana com camarão, purê de batata laranja, lula, tomates cerejas e legumes grelhados."
   },
   {
     title: "Peixe na Crosta de Gorgonzola",
     value: "79,00",
-    image_url: "",
+    image_url: PeixeNaCrosta,
     state: "",
     description: "Acompanhado com risoto de alho poró e cogumelos confitados."
   },
   {
     title: "Camarão Flambado ao Rum",
     value: "83,00",
-    image_url: "",
+    image_url: CamaraoFlambado,
     state: "",
     description: "Camarão flambado ao rum acompanha risoto de limão siciliano."
   },
   {
     title: "Camarão Cremoso",
     value: "82,00",
-    image_url: "",
+    image_url: CamaraoCremoso,
     state: "",
     description: "Camarão ao creme de leite e leite de coco, gratinado com queijo mussarela e parmesão, banana frita, acompanhado com arroz branco."
   },
   {
     title: "Tornedor de Mignon",
     value: "83,00",
-    image_url: "",
+    image_url: TornedorDeMignon,
     state: "",
     description: "Tornedor de mignon em crosta de ervas,  acompanha risoto de queijo brie e damasco."
   },
   {
     title: "Escalope de Mignon ao Molho Mostarda",
     value: "80,00",
-    image_url: "",
+    image_url: EscalopeDeMignon,
     state: "",
     description: "Escalopes de mignon ao molho mostarda, com aligot de batata."
   },
   {
     title: "Gnocchi de Batata com Ragu de Mignon",
     value: "78,00",
-    image_url: "",
+    image_url: GnocchiDeBatata,
     state: "",
     description: "Ragu de filé mignon com manjericão, pomodoro farofa de pangrattato e queijo parmesão."
   },
@@ -281,7 +299,7 @@ export const Mains = [
   {
     title: "Risotto de Cogumelos",
     value: "74,00",
-    image_url: "",
+    image_url: RisottoDeCogumelos,
     state: "",
     description: "Risoto cremoso com mix de cogumelos e queijo parmesão."
   }
@@ -291,7 +309,7 @@ export const ToShare = [
   {
     title: "Peixe Meuniere Seu Antônio",
     value: "198,00",
-    image_url: "",
+    image_url: PeixeMeuniereSeuAntonio,
     state: "",
     description: "Peixe inteiro ao molho Belle Meunière acompanhado de arroz com brócolis, mini batatas e legumes salteados."
   },
@@ -305,7 +323,7 @@ export const ToShare = [
   {
     title: "Moqueca Mista",
     value: "189,00",
-    image_url: "",
+    image_url: MoquecaMista,
     state: "",
     description: "Peixe, Camarões, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz de coco e aipim."
   },
@@ -319,21 +337,21 @@ export const ToShare = [
   {
     title: "Paella de Frutos do Mar",
     value: "194,00",
-    image_url: "",
+    image_url: PaellaDeFrutosDoMar,
     state: "",
     description: "Camarões, lula, polvo, peixes, arroz e legumes."
   },
   {
     title: "Parmegiana de Mignon",
     value: "180,00",
-    image_url: "",
+    image_url: ParmegianaDeMignon,
     state: "",
     description: "Acompanha arroz branco e batata frita."
   },
   {
     title: "Poseidon Rei dos Mares",
     value: "399,00",
-    image_url: "",
+    image_url: PoseidonReiDosMares,
     state: "",
     description: "Camarão grelhado, polvo, salmão, ostras gratinadas, ostras in natura, camarões empanados, legumes e arroz"
   }
