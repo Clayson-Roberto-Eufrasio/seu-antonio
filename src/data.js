@@ -1,36 +1,63 @@
+// Imagens de Aperitivos
+import BruschettaDePolvo from "../src/images/Aperitivos/BruchettaPolvoLogo.jpg"
+import BruschettaCaprese from "../src/images/Aperitivos/BruchettaCapreseLogo.jpg"
+import CevicheDePeixeBranco from "../src/images/Aperitivos/CevichePeixeLogo.jpg"
+import CevicheDeSalmao from "../src/images/Aperitivos/CevicheDeSalmaoLogo.jpg"
+import TartarDeSalmao from "../src/images/Aperitivos/TartareDeSalmaoLogo.jpg"
+import CamaraoAcebolado from "../src/images/Aperitivos/CamaraoAceboladoLogo.jpg"
+import PicadinhoSeuAntonio from "../src/images/Aperitivos/PicadinhoLogo.jpg"
+import MiniHamburguerDeCarne from "../src/images/Aperitivos/MiniHamburguerLogo.jpg"
+import SaladaCaesar from "../src/images/Aperitivos/SaladaLogo.jpg"
+import OstrasGratinada from "../src/images/Aperitivos/OstraGratinadaLogo.jpg"
+import OstrasInNatura from "../src/images/Aperitivos/OstraInNaturaLogo.jpg"
+import OstraAVinagrete from "../src/images/Aperitivos/OstraAVinagreteLogo.jpg"
+import OstrasAoBafo from "../src/images/Aperitivos/OstraAoBafoLogo.jpg"
+
+// Imagens de Entradas
+import BatataFrita from "../src/images/Entradas/BatataFritaLogo.jpg"
+import BatataCanoa from "../src/images/Entradas/BatataCanoaLogo.jpg"
+import IscaDePeixeEmpanada from "../src/images/Entradas/IscaDePeixeLogo.jpg"
+import AipimFrito from "../src/images/Entradas/AipimLogo.jpg"
+import FrangoCrocante from "../src/images/Entradas/FrangoEmpanadoLogo.jpg"
+import DadinhoDeTapioca from "../src/images/Entradas/DadinhoDeTapiocaLogo.jpg"
+import MiniPastelDeBrie from "../src/images/Entradas/PastelBrieLogo.jpg"
+import MiniPastelDeCamarao from "../src/images/Entradas/PastelCamaraoLogo.jpg"
+import CamaraoNoVaral from "../src/images/Entradas/CamaraoNoVaralLogo.jpg"
+
+
 export const Appetizer = [
   {
     title: "Bruschetta de Polvo",
     value: "56,00",
-    image_url: "",
+    image_url: BruschettaDePolvo,
     state: "",
     description: "Torradas artesanais, creme azeda, vinagrete de polvo e redução de balsâmico."
   },
   {
     title: "Bruschetta Caprese",
     value: "41,00",
-    image_url: "",
+    image_url: BruschettaCaprese,
     state: "",
     description: "Torrada artesanal, com tomate concassé mozzarella de búfala manjericão."
   },
   {
     title: "Ceviche de Peixe Branco",
     value: "58,00",
-    image_url: "",
+    image_url: CevicheDePeixeBranco,
     state: "",
     description: "Cubos de peixe branco marinado com leite de tigre,cebola roxa,pimenta dedo de moça, coentro, milho tostado e chips de banana."
   },
   {
     title: "Ceviche de Salmão",
     value: "60,00",
-    image_url: "",
+    image_url: CevicheDeSalmao,
     state: "",
     description: "Cubos de salmão, cebola roxa, leite de tigre da casa, pimenta dedo de moça, coentro fresco e torradinha."
   },
   {
     title: "Tartar de Salmão",
     value: "69,00",
-    image_url: "",
+    image_url: TartarDeSalmao,
     state: "",
     description: "Cubos de salmão, molho de ostras, shoyu, gergelim, azeite de oliva, limão, cebola roxa, abacate, manga e pepino."
   },
@@ -44,56 +71,56 @@ export const Appetizer = [
   {
     title: "Camarão Acebolado",
     value: "70,00",
-    image_url: "",
+    image_url: CamaraoAcebolado,
     state: "",
     description: "Camarões grelhados na manteiga com cebola e aipim."
   },
   {
     title: "Picadinho Seu Antônio",
     value: "80,00",
-    image_url: "",
+    image_url: PicadinhoSeuAntonio,
     state: "",
     description: "Cubos de filé mignon acebolado acompanhado com batatas ao murro e farofa de alho."
   },
   {
     title: "Mini Hambúrguer de Carne",
     value: "47,00",
-    image_url: "",
+    image_url: MiniHamburguerDeCarne,
     state: "",
     description: "Blend de carne, pão artesanal,alface, tomate, bacon, molho rose e queijo cheddar."
   },
   {
     title: "Salada Caesar",
     value: "40,00",
-    image_url: "",
+    image_url: SaladaCaesar,
     state: "",
     description: "Mix de folhas nobres, frango, bacon, croutons, queijo parmesão e molho caesar."
   },
   {
     title: "Ostras Gratinada",
     value: "46,00",
-    image_url: "",
+    image_url: OstrasGratinada,
     state: "",
     description: "6 Unid. de ostras gratinadas com molho branco e queijo parmesão."
   },
   {
     title: "Ostras in Natura",
     value: "34,00",
-    image_url: "",
+    image_url: OstrasInNatura,
     state: "",
     description: "6 Unid. de ostras, acompanha limão."
   },
   {
     title: "Ostras à Vinagrete",
     value: "37,00",
-    image_url: "",
+    image_url: OstraAVinagrete,
     state: "",
     description: "6 Unid. de ostras, vinagrete da casa, acompanha limão."
   },
   {
     title: "Ostras ao Bafo",
     value: "37,00",
-    image_url: "",
+    image_url: OstrasAoBafo,
     state: "",
     description: "6 Unid. de ostras, cozidas ao bafo com raspas de limão."
   }
@@ -103,42 +130,42 @@ export const Appetizers = [
   {
     title: "Batata Frita",
     value: "27,00",
-    image_url: "",
+    image_url: BatataFrita,
     state: "",
     description: "Acompanha molho da casa."
   },  
   {
     title: "Batata Canoa",
     value: "28,00",
-    image_url: "",
+    image_url: BatataCanoa,
     state: "",
     description: "Acompanha molho verde."
   },  
   {
     title: "Aipim Frito",
     value: "28,00",
-    image_url: "",
+    image_url: AipimFrito,
     state: "",
     description: "Acompanha molho rosé."
   },
   {
     title: "Isca de Peixe Empanada",
     value: "54,00",
-    image_url: "",
+    image_url: IscaDePeixeEmpanada,
     state: "",
     description: "Acompanha molho rosé."
   },  
   {
     title: "Frango Crocante",
     value: "52,00",
-    image_url: "",
+    image_url: FrangoCrocante,
     state: "",
     description: "Acompanha molho verde."
   },  
   {
     title: "Dadinho de Tapioca",
     value: "30,00",
-    image_url: "",
+    image_url: DadinhoDeTapioca,
     state: "",
     description: "Acompanha geleia de pimenta."
   },  
@@ -159,21 +186,21 @@ export const Appetizers = [
   {
     title: "Mini Pastel de Brie",
     value: "38,00",
-    image_url: "",
+    image_url: MiniPastelDeBrie,
     state: "",
     description: "Acompanha geleia de pimenta."
   },  
   {
     title: "Mini Pastel de Camarão",
     value: "42,00",
-    image_url: "",
+    image_url: MiniPastelDeCamarao,
     state: "",
     description: "Acompanha molho de pimenta."
   },  
   {
     title: "Camarão no Varal",
     value: "89,00",
-    image_url: "",
+    image_url: CamaraoNoVaral,
     state: "",
     description: "Camarão empanado no panko acompanhado com molho de pimenta e molho verde."
   }
