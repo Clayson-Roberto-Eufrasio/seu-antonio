@@ -43,13 +43,13 @@ import PaellaDeFrutosDoMar from "../src/images/ParaCompartilhar/PaellaLogo.jpg"
 import ParmegianaDeMignon from "../src/images/ParaCompartilhar/ParmegianaLogo.jpg"
 import PoseidonReiDosMares from "../src/images/ParaCompartilhar/PseidonLogo.jpg"
 
-// Imagens de Drinks Sem Alcool
+// Imagens Drinks
 import SodaFrutasVermelhas from "../src/images/DrnksSemAlcool/SodaFrutasVermelhasLogo.jpg"
-
-// Imagens Drinks Classicos
 import Melancita from "../src/images/DrinksAlcolicos/MelancitaLogo.jpg"
 import RedBullComVodka from "../src/images/DrinksAlcolicos/VodgaComEnegeticoLogo.jpg"
-import Caipvodka from "../src/images/DrinksAlcolicos/CaipLimaoLogo.jpg"
+import CaipLimao from "../src/images/DrinksAlcolicos/CaipLimaoLogo.jpg"
+import CaipMorango from "../src/images/DrinksAlcolicos/CaipMorangoLogo.jpg"
+import CaiAbacaxi from "../src/images/DrinksAlcolicos/CaipAbacaxiLogo.jpg"
 import Cosmopolitan from "../src/images/DrinksAlcolicos/CosmopolitanLogo.jpg"
 import MoscowMule from "../src/images/DrinksAlcolicos/MoscowLogo.jpg"
 import CloverClub from "../src/images/DrinksAlcolicos/CloverClobLogo.jpg"
@@ -58,6 +58,18 @@ import Negroni from "../src/images/DrinksAlcolicos/NegroniLogo.jpg"
 import DryMartini from "../src/images/DrinksAlcolicos/DryMartinoiLogo.jpg"
 import Margarita from "../src/images/DrinksAlcolicos/MargaritaLogo.jpg"
 import AperolSpritz from "../src/images/DrinksAlcolicos/AperolLogo.jpg"
+import HorsesNeck from "../src/images/DrinksAlcolicos/HorseNeck.jpg"
+import GinTonica from "../src/images/DrinksAlcolicos/GinTonicaLogo.jpg"
+import TropicalGin from "../src/images/DrinksAlcolicos/TropicalLogo.jpg"
+import Antonio43 from "../src/images/DrinksAlcolicos/Antonio43Logo.jpg"
+import Brambre from "../src/images/DrinksAlcolicos/BrambreLogo.jpg"
+import CantoDaSereia from "../src/images/DrinksAlcolicos/CantoSereiLogo.jpg"
+import IslandColler from "../src/images/DrinksAlcolicos/IslandColler.jpg"
+import MagicPosion from "../src/images/DrinksAlcolicos/MagicPosionLogo.jpg"
+import Poseidon from "../src/images/DrinksAlcolicos/PoseidonLogo.jpg"
+import Tridente from "../src/images/DrinksAlcolicos/TridendeLogo.jpg"
+import Tribuzana from "../src/images/DrinksAlcolicos/TribuzanaLogo.jpg"
+import OldFashion from "../src/images/DrinksAlcolicos/Bulewardie.jpg"
 
 
 export const Appetizer = [
@@ -254,7 +266,7 @@ export const Mains = [
     value: "82,00",
     image_url: PolvoGlaceado,
     state: "",
-    description: "Polvo glaceado em redução de limão, meio e shoyu, acompanho de musseline de batata"
+    description: "Polvo glaceado em redução de limão, meio e shoyu, acompanho de musseline de batata."
   },
   {
     title: "Salmão à Valenciana",
@@ -335,7 +347,7 @@ export const ToShare = [
     value: "180,00",
     image_url: "",
     state: "",
-    description: "Peixe, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz e aipim na manteiga"
+    description: "Peixe, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz e aipim na manteiga."
   },
   {
     title: "Moqueca Mista",
@@ -370,7 +382,7 @@ export const ToShare = [
     value: "399,00",
     image_url: PoseidonReiDosMares,
     state: "",
-    description: "Camarão grelhado, polvo, salmão, ostras gratinadas, ostras in natura, camarões empanados, legumes e arroz"
+    description: "Camarão grelhado, polvo, salmão, ostras gratinadas, ostras in natura, camarões empanados, legumes e arroz."
   }
 ]
 
@@ -380,14 +392,14 @@ export const Kids = [
     value: "45,00",
     image_url: "",
     state: "",
-    description: "Acompanha arroz, fritas e carne"
+    description: "Acompanha arroz, fritas e carne."
   },
   {
     title: "Kids Peixe",
     value: "45,00",
     image_url: "",
     state: "",
-    description: "Acompanha arroz, fritas e peixe"
+    description: "Acompanha arroz, fritas e peixe."
   }
 ]
 
@@ -404,7 +416,7 @@ export const Desserts = [
     value: "39,00",
     image_url: "",
     state: "",
-    description: "Com sorvete de creme"
+    description: "Com sorvete de creme."
   },
   {
     title: "Pudim com Doce de Leite",
@@ -418,7 +430,7 @@ export const Desserts = [
     value: "36,00",
     image_url: "",
     state: "",
-    description: "Sorvete de baunilha"
+    description: "Sorvete de baunilha."
   },
   {
     title: "Café",
@@ -435,91 +447,91 @@ export const ClassicDrinks = [
     value: "40,00",
     image_url: Melancita,
     state: "",
-    description: "Dose de gin nacional e 1 red bull de melancia"
+    description: "Dose de gin nacional e 1 red bull de melancia."
   },
   {
     title: "Melancita Premium",
     value: "45,00",
     image_url: Melancita,
     state: "",
-    description: "Dose de gin bombay e 1 red bull de melancia"
+    description: "Dose de gin bombay e 1 red bull de melancia."
   },
   {
     title: "Gin Tônica",
     value: "35,00",
-    image_url: "",
+    image_url: GinTonica,
     state: "",
-    description: "Dose de gin nacional com tônica"
+    description: "Dose de gin nacional com tônica."
   },
   {
     title: "Gin Tônica Premium",
     value: "40,00",
-    image_url: "",
+    image_url: GinTonica,
     state: "",
-    description: "Dose de gin bombay com tônica"
+    description: "Dose de gin bombay com tônica."
   },
   {
     title: "Tropical Gin",
     value: "40,00",
-    image_url: "",
+    image_url: TropicalGin,
     state: "",
-    description: "Dose de gin nacional e 1 red bull tropical"
+    description: "Dose de gin nacional e 1 red bull tropical."
+  },
+  {
+    title: "Tropical Gin Premium",
+    value: "45,00",
+    image_url: TropicalGin,
+    state: "",
+    description: "Dose de gin bombay e 1 red bull tropical."
   },
   {
     title: "67 kal",
     value: "40,00",
     image_url: "",
     state: "",
-    description: "Dose de gin nacional e 1 red bull zero"
+    description: "Dose de gin nacional e 1 red bull zero."
   },
   {
     title: "67 kal Premium",
     value: "45,00",
     image_url: "",
     state: "",
-    description: "Dose de gin bombay e 1 red bull zero"
-  },
-  {
-    title: "Tropical Gin Premium",
-    value: "45,00",
-    image_url: "",
-    state: "",
-    description: "Dose de gin bombay e 1 red bull tropical"
+    description: "Dose de gin bombay e 1 red bull zero."
   },
   {
     title: "Red Bull com Vodka",
     value: "40,00",
     image_url: RedBullComVodka,
     state: "",
-    description: "Dose de vodka e 1 red bull"
+    description: "Dose de vodka e 1 red bull."
   },
   {
-    title: "Caipvodka",
+    title: "CaipvodkaLimao",
     value: "32,00",
-    image_url: Caipvodka,
+    image_url: CaiAbacaxi,
     state: "",
-    description: "Opções: Limão, Abacaxi, Morango"
+    description: "Opções: Limão, Abacaxi, Morango."
   },
   {
     title: "Caipvodka Premium",
     value: "40,00",
-    image_url: Caipvodka,
+    image_url: CaipMorango,
     state: "",
-    description: "Opções: Limão, Abacaxi, Morango"
+    description: "Opções: Limão, Abacaxi, Morango."
   },
   {
     title: "Caipirinha de Cachaça",
     value: "32,00",
-    image_url: Caipvodka,
+    image_url: CaipLimao,
     state: "",
-    description: "Opções: Limão, Abacaxi, Morango"
+    description: "Opções: Limão, Abacaxi, Morango."
   },
   {
     title: "Cosmopolitan",
     value: "39,00",
     image_url: Cosmopolitan,
     state: "",
-    description: "Vodka com infusão de cítricos, licor triple sec, xarope de cramberry, suco de limão siciliano"
+    description: "Vodka com infusão de cítricos, licor triple sec, xarope de cramberry, suco de limão siciliano."
   },
   {
     title: "Moscow Mule",
@@ -540,63 +552,63 @@ export const ClassicDrinks = [
     value: "38,00",
     image_url: CloverClub,
     state: "",
-    description: "Gin, purê de framboesa, suco de limão siciliano, aquafaba"
+    description: "Gin, purê de framboesa, suco de limão siciliano, aquafaba."
   },
   {
     title: "Horses Neck",
     value: "37,00",
-    image_url: "",
+    image_url: HorsesNeck,
     state: "",
-    description: "Brandy miolo 15 anos, suco de gengibre, suco de limão siciliano, xarope demerara, água com gás"
+    description: "Brandy miolo 15 anos, suco de gengibre, suco de limão siciliano, xarope demerara, água com gás."
   },
   {
     title: "Carajillo",
     value: "48,00",
     image_url: Carajillo,
     state: "",
-    description: "Licor 43 e café expresso"
+    description: "Licor 43 e café expresso."
   },
   {
     title: "Negroni",
     value: "40,00",
     image_url: Negroni,
     state: "",
-    description: "Gin nacional, vermute rosso, campari, meia lua de laranja"
+    description: "Gin nacional, vermute rosso, campari, meia lua de laranja."
   },
   {
     title: "Negroni Premium",
     value: "45,00",
     image_url: Negroni,
     state: "",
-    description: "Gin bombay, vermute rosso, campari, meia lua de laranja"
+    description: "Gin bombay, vermute rosso, campari, meia lua de laranja."
   },
   {
     title: "Dry Martini",
     value: "36,00",
     image_url: DryMartini,
     state: "",
-    description: "Gin, vermute extra dry, azeitona"
+    description: "Gin, vermute extra dry, azeitona."
   },
   {
     title: "Margarita",
     value: "38,00",
     image_url: Margarita,
     state: "",
-    description: "Tequila, licor cointreau, suco de limão e sal"
+    description: "Tequila, licor cointreau, suco de limão e sal."
   },
   {
     title: "Aperol Spritz",
     value: "37,00",
     image_url: AperolSpritz,
     state: "",
-    description: "Espumante brut, aperitivo aperol, água carbonatada, rodela de laranja"
+    description: "Espumante brut, aperitivo aperol, água carbonatada, rodela de laranja."
   },
   {
     title: "Old Fashioned",
     value: "40,00",
-    image_url: "",
+    image_url: OldFashion,
     state: "",
-    description: "Whisky burbon, açúcar e angustura"
+    description: "Whisky burbon, açúcar e angustura."
   }
 ]
 
@@ -604,56 +616,56 @@ export const Exclusive = [
   {
     title: "Seu Antônio 43",
     value: "42,00",
-    image_url: "",
+    image_url: Antonio43,
     state: "",
-    description: "Whisky burbon, licor 43, suco de maracujá, aquafaba, suco de limão taiti"
+    description: "Whisky burbon, licor 43, suco de maracujá, aquafaba, suco de limão taiti."
   },
   {
     title: "Seu Antônio Bramble",
     value: "38,00",
-    image_url: "",
+    image_url: Brambre,
     state: "",
-    description: "Gin, purê de amora, suco de limão siciliano"
+    description: "Gin, purê de amora, suco de limão siciliano."
   },
   {
     title: "Canto da Sereia",
     value: "36,00",
-    image_url: "",
+    image_url: CantoDaSereia,
     state: "",
-    description: "Caçacha giuseppe amburana, suco de maracuja e xarope de camberry"
+    description: "Caçacha giuseppe amburana, suco de maracuja e xarope de camberry."
   },
   {
     title: "Island Cooler",
     value: "32,00",
-    image_url: "",
+    image_url: IslandColler,
     state: "",
-    description: "Whisky, suco de limão sicilianos, suco de gengibre, xarope simples, água carbonatada, fernet"
+    description: "Whisky, suco de limão sicilianos, suco de gengibre, xarope simples, água carbonatada e fernet."
   },
   {
     title: "Magic Potion",
     value: "42,00",
-    image_url: "",
+    image_url: MagicPosion,
     state: "",
-    description: "Vodga citrion, suco de limão siciliano, xarope de morango, monin curaçau blue, anis estrelado e aquafaba"
+    description: "Vodga citrion, suco de limão siciliano, xarope de morango, monin curaçau blue, anis estrelado e aquafaba."
   },
   {
     title: "Poseidon",
     value: "34,00",
-    image_url: "",
+    image_url: Poseidon,
     state: "",
-    description: "Rum de coco, suco de gengibre, suco de limão taiti e purê de pessego"
+    description: "Rum de coco, suco de gengibre, suco de limão taiti e purê de pessego."
   },
   {
     title: "Tridente",
     value: "39,00",
-    image_url: "",
+    image_url: Tridente,
     state: "",
-    description: "Whiskey burbon, purê de pessego, suco de limão taiti, vermut rosso e canela em pau"
+    description: "Whiskey burbon, purê de pessego, suco de limão taiti, vermut rosso e canela em pau."
   },
   {
     title: "Tribuzana",
     value: "38,00",
-    image_url: "",
+    image_url: Tribuzana,
     state: "",
     description: "Run de coco, licr de melancia e suco de limão taiti."
   },
@@ -665,21 +677,21 @@ export const NonAlcoholicDrinks = [
     value: "36,00",
     image_url: "",
     state: "",
-    description: "Purê de frutas framboesa, xarope de framboesa, suco de limão Taiti, aquafaba"
+    description: "Purê de frutas framboesa, xarope de framboesa, suco de limão Taiti e aquafaba."
   },
   {
     title: "Moscow Mule Sem Álcool",
     value: "32,00",
     image_url: MoscowMule,
     state: "",
-    description: "Suco de gengibre, suco de limão Taiti, xarope demerara, água carbonatada, espuma cítrica"
+    description: "Suco de gengibre, suco de limão Taiti, xarope demerara, água carbonatada, espuma cítrica."
   },
   {
     title: "Soda Italiana",
     value: "18,00",
     image_url: SodaFrutasVermelhas,
     state: "",
-    description: "Opções: consultar sabores"
+    description: "Opções: consultar sabores."
   }
 ]
 
