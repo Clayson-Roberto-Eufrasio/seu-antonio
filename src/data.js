@@ -43,6 +43,23 @@ import PaellaDeFrutosDoMar from "../src/images/ParaCompartilhar/PaellaLogo.jpg"
 import ParmegianaDeMignon from "../src/images/ParaCompartilhar/ParmegianaLogo.jpg"
 import PoseidonReiDosMares from "../src/images/ParaCompartilhar/PseidonLogo.jpg"
 
+// Imagens de Drinks Sem Alcool
+import SodaFrutasVermelhas from "../src/images/DrnksSemAlcool/SodaFrutasVermelhasLogo.jpg"
+
+// Imagens Drinks Classicos
+import Melancita from "../src/images/DrinksAlcolicos/MelancitaLogo.jpg"
+import RedBullComVodka from "../src/images/DrinksAlcolicos/VodgaComEnegeticoLogo.jpg"
+import Caipvodka from "../src/images/DrinksAlcolicos/CaipLimaoLogo.jpg"
+import Cosmopolitan from "../src/images/DrinksAlcolicos/CosmopolitanLogo.jpg"
+import MoscowMule from "../src/images/DrinksAlcolicos/MoscowLogo.jpg"
+import CloverClub from "../src/images/DrinksAlcolicos/CloverClobLogo.jpg"
+import Carajillo from "../src/images/DrinksAlcolicos/CarajilloLogo.jpg"
+import Negroni from "../src/images/DrinksAlcolicos/NegroniLogo.jpg"
+import DryMartini from "../src/images/DrinksAlcolicos/DryMartinoiLogo.jpg"
+import Margarita from "../src/images/DrinksAlcolicos/MargaritaLogo.jpg"
+import AperolSpritz from "../src/images/DrinksAlcolicos/AperolLogo.jpg"
+
+
 export const Appetizer = [
   {
     title: "Bruschetta de Polvo",
@@ -416,14 +433,14 @@ export const ClassicDrinks = [
   {
     title: "Melancita",
     value: "40,00",
-    image_url: "",
+    image_url: Melancita,
     state: "",
     description: "Dose de gin nacional e 1 red bull de melancia"
   },
   {
     title: "Melancita Premium",
     value: "45,00",
-    image_url: "",
+    image_url: Melancita,
     state: "",
     description: "Dose de gin bombay e 1 red bull de melancia"
   },
@@ -472,56 +489,56 @@ export const ClassicDrinks = [
   {
     title: "Red Bull com Vodka",
     value: "40,00",
-    image_url: "",
+    image_url: RedBullComVodka,
     state: "",
     description: "Dose de vodka e 1 red bull"
   },
   {
     title: "Caipvodka",
     value: "32,00",
-    image_url: "",
+    image_url: Caipvodka,
     state: "",
     description: "Opções: Limão, Abacaxi, Morango"
   },
   {
     title: "Caipvodka Premium",
     value: "40,00",
-    image_url: "",
+    image_url: Caipvodka,
     state: "",
     description: "Opções: Limão, Abacaxi, Morango"
   },
   {
     title: "Caipirinha de Cachaça",
     value: "32,00",
-    image_url: "",
+    image_url: Caipvodka,
     state: "",
     description: "Opções: Limão, Abacaxi, Morango"
   },
   {
     title: "Cosmopolitan",
     value: "39,00",
-    image_url: "",
+    image_url: Cosmopolitan,
     state: "",
     description: "Vodka com infusão de cítricos, licor triple sec, xarope de cramberry, suco de limão siciliano"
   },
   {
     title: "Moscow Mule",
     value: "36,00",
-    image_url: "",
+    image_url: MoscowMule,
     state: "",
     description: "Vodka nacional, suco de gengibre, suco de limão taiti, xarope demerara, espuma cítrica, raspa de limão taiti."
   },
   {
     title: "Moscow Mule Premium",
     value: "42,00",
-    image_url: "",
+    image_url: MoscowMule,
     state: "",
     description: "Vodka Absolut, suco de gengibre, suco de limão taiti, xarope demerara, espuma cítrica, raspa de limão taiti."
   },
   {
     title: "Clover Club",
     value: "38,00",
-    image_url: "",
+    image_url: CloverClub,
     state: "",
     description: "Gin, purê de framboesa, suco de limão siciliano, aquafaba"
   },
@@ -535,42 +552,42 @@ export const ClassicDrinks = [
   {
     title: "Carajillo",
     value: "48,00",
-    image_url: "",
+    image_url: Carajillo,
     state: "",
     description: "Licor 43 e café expresso"
   },
   {
     title: "Negroni",
     value: "40,00",
-    image_url: "",
+    image_url: Negroni,
     state: "",
     description: "Gin nacional, vermute rosso, campari, meia lua de laranja"
   },
   {
     title: "Negroni Premium",
     value: "45,00",
-    image_url: "",
+    image_url: Negroni,
     state: "",
     description: "Gin bombay, vermute rosso, campari, meia lua de laranja"
   },
   {
     title: "Dry Martini",
     value: "36,00",
-    image_url: "",
+    image_url: DryMartini,
     state: "",
     description: "Gin, vermute extra dry, azeitona"
   },
   {
     title: "Margarita",
     value: "38,00",
-    image_url: "",
+    image_url: Margarita,
     state: "",
     description: "Tequila, licor cointreau, suco de limão e sal"
   },
   {
     title: "Aperol Spritz",
     value: "37,00",
-    image_url: "",
+    image_url: AperolSpritz,
     state: "",
     description: "Espumante brut, aperitivo aperol, água carbonatada, rodela de laranja"
   },
@@ -653,14 +670,14 @@ export const NonAlcoholicDrinks = [
   {
     title: "Moscow Mule Sem Álcool",
     value: "32,00",
-    image_url: "",
+    image_url: MoscowMule,
     state: "",
     description: "Suco de gengibre, suco de limão Taiti, xarope demerara, água carbonatada, espuma cítrica"
   },
   {
     title: "Soda Italiana",
     value: "18,00",
-    image_url: "",
+    image_url: SodaFrutasVermelhas,
     state: "",
     description: "Opções: consultar sabores"
   }
