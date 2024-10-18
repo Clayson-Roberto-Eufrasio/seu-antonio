@@ -369,11 +369,25 @@ export const Desserts = [
 
 export const ClassicDrinks = [
   {
+    title: "Fitzgerald",
+    value: "38,00",
+    image_url: "",
+    state: "",
+    description: "Dose de gin, bitter angustura, açúcar e suco de limão taíti."
+  },
+  {
+    title: "Cello spritz",
+    value: "40,00",
+    image_url: "",
+    state: "",
+    description: "Licor limoncello, espumante brut e água com gás."
+  },
+  {
     title: "Melancita",
     value: "40,00",
     image_url: "",
     state: "",
-    description: "Dose de gin nacional e 1 red bull de melancia"
+    description: "Dose de gin nacional e 1 red bull de melancia."
   },
   {
     title: "Melancita Premium",
