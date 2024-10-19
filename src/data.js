@@ -1114,7 +1114,7 @@ export const WineWhite = [
   },
   {
     title: "Becas Delle Venezie DOC Pinot Grigio",
-    value: "160,00",
+    value: "169,00",
     image_url: "",
     state: "IT",
     description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar ."
@@ -1180,7 +1180,7 @@ export const WineRose = [
   },
   {
     title: "Villa Francioni Rosé 1,750ml",
-    value: "220,00",
+    value: "398,00",
     image_url: "",
     state: "BR",
     description: "Uva: cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
