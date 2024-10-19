@@ -47,6 +47,11 @@ const MenuItem = ({ item }) => {
   return (
     <CardContainer >
       <Title>{item.title}</Title>
+      {item.image_url ? (
+        <img src={item.image_url} alt={item.title} style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
+      ) : (
+        <></>
+      )}
       <Description>{item.description}</Description>
       <Flag code={item.state} style={{ width: 35, height: 35}}/>
       <Price>R$ {item.value}</Price>
