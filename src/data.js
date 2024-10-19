@@ -71,6 +71,12 @@ import Tridente from "../src/images/DrinksAlcolicos/TridendeLogo.jpg"
 import Tribuzana from "../src/images/DrinksAlcolicos/TribuzanaLogo.jpg"
 import OldFashion from "../src/images/DrinksAlcolicos/Bulewardie.jpg"
 
+// Imagens de Sobremesas
+import Pudim from "../src/images/Sobremesas/PudimModal.jpg"
+import GrandGateau from "../src/images/Sobremesas/GranGateauModal.jpg"
+import PetitGateau from "../src/images/Sobremesas/PettiGateauLogo.jpg"
+import Cocada from "../src/images/Sobremesas/CocadaLogo.jpg"
+
 
 export const Appetizer = [
   {
@@ -407,28 +413,28 @@ export const Desserts = [
   {
     title: "Grand Gateau 2 Pessoas",
     value: "74,00",
-    image_url: "",
+    image_url: GrandGateau,
     state: "",
     description: "Gateau de chocolate, amêndoas, terra de chocolate meio amargo, morangos e paleta de ninho trufado."
   },
   {
     title: "Petit Gateau de Doce de Leite",
     value: "39,00",
-    image_url: "",
+    image_url: PetitGateau,
     state: "",
     description: "Com sorvete de creme."
   },
   {
     title: "Pudim com Doce de Leite",
     value: "39,00",
-    image_url: "",
+    image_url: Pudim,
     state: "",
     description: ""
   },
   {
     title: "Cocada com Sorvete",
     value: "36,00",
-    image_url: "",
+    image_url: Cocada,
     state: "",
     description: "Sorvete de baunilha."
   },
