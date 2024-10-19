@@ -59,8 +59,6 @@ import DryMartini from "../src/images/DrinksAlcolicos/DryMartinoiLogo.jpg"
 import Margarita from "../src/images/DrinksAlcolicos/MargaritaLogo.jpg"
 import AperolSpritz from "../src/images/DrinksAlcolicos/AperolLogo.jpg"
 import HorsesNeck from "../src/images/DrinksAlcolicos/HorseNeck.jpg"
-import GinTonica from "../src/images/DrinksAlcolicos/GinTonicaLogo.jpg"
-import TropicalGin from "../src/images/DrinksAlcolicos/GinTropicalLogo.jpg"
 import Antonio43 from "../src/images/DrinksAlcolicos/Antonio43Logo.jpg"
 import Brambre from "../src/images/DrinksAlcolicos/BrambreLogo.jpg"
 import CantoDaSereia from "../src/images/DrinksAlcolicos/CantoSereiLogo.jpg"
@@ -465,28 +463,28 @@ export const ClassicDrinks = [
   {
     title: "Gin Tônica",
     value: "35,00",
-    image_url: GinTonica,
+    image_url: "",
     state: "",
     description: "Dose de gin nacional com tônica."
   },
   {
     title: "Gin Tônica Premium",
     value: "40,00",
-    image_url: GinTonica,
+    image_url: "",
     state: "",
     description: "Dose de gin bombay com tônica."
   },
   {
     title: "Tropical Gin",
     value: "40,00",
-    image_url: TropicalGin,
+    image_url: "",
     state: "",
     description: "Dose de gin nacional e 1 red bull tropical."
   },
   {
     title: "Tropical Gin Premium",
     value: "45,00",
-    image_url: TropicalGin,
+    image_url: "",
     state: "",
     description: "Dose de gin bombay e 1 red bull tropical."
   },
