@@ -449,20 +449,6 @@ export const Desserts = [
 
 export const ClassicDrinks = [
   {
-    title: "Fitzgerald",
-    value: "38,00",
-    image_url: "",
-    state: "",
-    description: "Dose de gin, bitter angustura, açúcar e suco de limão taíti."
-  },
-  {
-    title: "Cello spritz",
-    value: "40,00",
-    image_url: "",
-    state: "",
-    description: "Licor limoncello, espumante brut e água com gás."
-  },
-  {
     title: "Melancita",
     value: "40,00",
     image_url: Melancita,
@@ -1120,6 +1106,20 @@ export const WineWhite = [
     description: "Uva: Pinot Grigio, apresenta uma coloração amarelo esverdeado com reflexos dourados, aromas de frutas tropicais, camomila e florais. No paladar, é leve, delicado, fresco e persistente, harmoniza com aves e queijos."
   },
   {
+    title: "Siegel Handpicked Sauvignon Blanc",
+    value: "160,00",
+    image_url: "",
+    state: "CL",
+    description: "Uva: Sauvignon Blanc, aroma intenso de frutas tropicais e cítricas, com delicadas notas de ervas, em boca presenta um paladar equilibrado com acidez agradável e macio com final persistente, harmoniza com sushis e frutos do mar."
+  },
+  {
+    title: "Becas Delle Venezie DOC Pinot Grigio",
+    value: "169,00",
+    image_url: "",
+    state: "IT",
+    description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar ."
+  },
+  {
     title: "Thera Sauvignon Blanc",
     value: "210,00",
     image_url: "",
@@ -1172,12 +1172,19 @@ export const WineRose = [
     description: "Uva: Syrah Grenache"
   },
   {
-    title: "Villa Francioni Rosé",
+    title: "Villa Francioni Rosé 750ml",
     value: "220,00",
     image_url: "",
     state: "BR",
     description: "Uva: cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
-  }, 
+  },
+  {
+    title: "Villa Francioni Rosé 1,750ml",
+    value: "398,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
+  },
 ]
 
 export const Espumant = [
