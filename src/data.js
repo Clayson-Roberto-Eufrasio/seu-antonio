@@ -1195,7 +1195,6 @@ export const Espumant = [
     state: "",
     description: "Uva: chardonnay, pinot noir, macio, refrescante, acidez refrescante, harmoniza com frutos do mar, camarão, salmão, risotto de tomate seco e sushi"
   },
-  
   {
     title: "Chandon Magnum Brut 1,5 Litros",
     value: "460,00",
