@@ -658,3 +658,594 @@ export const Exclusive = [
     title: "Poseidon",
     value: "34,00",
     image_url: Poseidon,
+    state: "",
+    description: "Rum de coco, suco de gengibre, suco de limão taiti e purê de pessego."
+  },
+  {
+    title: "Tridente",
+    value: "39,00",
+    image_url: Tridente,
+    state: "",
+    description: "Whiskey burbon, purê de pessego, suco de limão taiti, vermut rosso e canela em pau."
+  },
+  {
+    title: "Tribuzana",
+    value: "38,00",
+    image_url: Tribuzana,
+    state: "",
+    description: "Run de coco, licr de melancia e suco de limão taiti."
+  },
+]
+
+export const NonAlcoholicDrinks = [
+  {
+    title: "Sambaqui",
+    value: "36,00",
+    image_url: "",
+    state: "",
+    description: "Purê de frutas framboesa, xarope de framboesa, suco de limão Taiti e aquafaba."
+  },
+  {
+    title: "Moscow Mule Sem Álcool",
+    value: "32,00",
+    image_url: MoscowMule,
+    state: "",
+    description: "Suco de gengibre, suco de limão Taiti, xarope demerara, água carbonatada, espuma cítrica."
+  },
+  {
+    title: "Soda Italiana",
+    value: "18,00",
+    image_url: SodaFrutasVermelhas,
+    state: "",
+    description: "Opções: consultar sabores."
+  }
+]
+
+export const Combos = [
+  {
+    title: "Grey Goose 750ml",
+    value: "600,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 1 garrafa de grey goose 750ml e 5 acompanhamentos"
+  },
+  {
+    title: "Grey Goose 1,500L",
+    value: "1250,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 1 garrafa de grey goose 1,500L e 10 acompanhamentos"
+  },
+  {
+    title: "Gin Bombay 750ml",
+    value: "550,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 1 garrafa gin bombay 750ml e 5 acompanhamentos"
+  },
+  {
+    title: "Gin Bombay 1,750L",
+    value: "1150,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 1 garrafa gin bombay 1,750L e 10 acompanhamentos",
+  },
+  {
+    title: "Chivas 12 anos",
+    value: "650,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha uma garrafa de chivas 12 anos e 5 acompanhamentos"
+  },
+  {
+    title: "Espumante Chandon",
+    value: "570,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 3 espumante chandon"
+  },
+  {
+    title: "Combo Veuve Clicquot",
+    value: "2500,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 3 garrafa de veuve clicquot"
+  }
+]
+
+export const Doses = [
+  {
+    title: "Vodka Absolut",
+    value: "38,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Dose Gray Goose",
+    value: "42,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Gin bombay",
+    value: "43,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Whisky Jack Daniels",
+    value: "45,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Whisky Chivas 12 anos",
+    value: "42,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Whisky Gold Label",
+    value: "52,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Dose de Cachaça",
+    value: "25,00",
+    image_url: "",
+    state: "",
+    description: "Cachaça giuseppe"
+  },
+  {
+    title: "Dose Baileys",
+    value: "38,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Licor 43",
+    value: "47,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Balena",
+    value: "47,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Tequila Prata / Ouro",
+    value: "42,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Rum Branco / Ouro",
+    value: "33,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Jagermeister",
+    value: "35,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Campari",
+    value: "35,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Dose Limoncello",
+    value: "33,00",
+    image_url: "",
+    state: "",
+    description: ""
+  }
+]
+
+export const Bottles = [
+  {
+    title: "Grey Goose 750ml",
+    value: "560,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Grey Goose 1,500L",
+    value: "1100,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Gin bombay 750ml",
+    value: "500,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Gin bombay 1,750L",
+    value: "1100,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Whisky Jack Daniels",
+    value: "520,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Whisky Gold Label",
+    value: "690,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Whisky Blue Label",
+    value: "1800,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Royal Salut",
+    value: "2200,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Whisky Chivas 12 anos",
+    value: "600,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Licor 43",
+    value: "490,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Balena",
+    value: "470,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Jagermeister",
+    value: "400,00",
+    image_url: "",
+    state: "",
+    description: ""
+  }
+]
+
+export const SoftDrinks = [
+  {
+    title: "Água com Gás",
+    value: "8,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Água sem Gás",
+    value: "8,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Água de Coco",
+    value: "12,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Água Tônica",
+    value: "10,00",
+    image_url: "",
+    state: "",
+    description: "Opções: Normal ou Zero"
+  }, 
+  {
+    title: "Refrigerantes",
+    value: "10,00",
+    image_url: "",
+    state: "",
+    description: "Opções: Coca-cola, Coca-cola zero, Guaraná, Guaraná zero, citrus"
+  },
+  {
+    title: "Sucos",
+    value: "14,00",
+    image_url: "",
+    state: "",
+    description: "Opções: Limão, Laranja, Morango ou Uva"
+  },
+  {
+    title: "Energético",
+    value: "22,00",
+    image_url: "",
+    state: "",
+    description: "Opções: Regular, Tropical, Melancia, Sugar Free"
+  },
+  {
+    title: "Combo Energéticos",
+    value: "105,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 5 red bull"
+  }
+]
+
+export const Beers = [
+  {
+    title: "Corona Long Neck",
+    value: "19,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Patagônia Longe Neck",
+    value: "20,00",
+    image_url: "",
+    state: "",
+    description: "Ipa ou Weiss"
+  },
+  {
+    title: "Patagônia 740ml",
+    value: "37,00",
+    image_url: "",
+    state: "",
+    description: "Pilsen"
+  },
+  {
+    title: "Balde de Corona",
+    value: "85,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 5 coronas"
+  },
+  {
+    title: "Cerveja sem Álcool",
+    value: "17,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Cerveja Spaten",
+    value: "15,00",
+    image_url: "",
+    state: "",
+    description: ""
+  },
+  {
+    title: "Balde de Spaten",
+    value: "65,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 5 spatens"
+  }
+]
+
+export const WineTinto = [
+  {
+    title: "Argento Malbec",
+    value: "152,00",
+    image_url: "",
+    state: "ARG",
+    description: "Uva: Malbec, aroma intenso lembrando ameixa, cerejas negras e violeta com notas amadeiradas, em boca é frutado com ataque inicial doce. Apresenta taninos macios e equilibrados, harmoniza com bruschetas, filé na manteiga e risoto de funghi."
+  },
+  {
+    title: "Becas Carménère",
+    value: "149,00",
+    image_url: "",
+    state: "CL",
+    description: "Uva: Carménère, apresenta aromas de frutas vermelhas frescas, toque de temperos e especiarias,  em boca possui taninos macios, intenso e com frutas maduras, harmoniza com lombo suíno caramelizado"
+  },
+  {
+    title: "Vinho 12 e Mezzo Primitivo del Salento",
+    value: "248,00",
+    image_url: "",
+    state: "IT",
+    description: "Uva: Primitivo, aroma com toques de ameixa e cereja, notas de baunilha e cacau, em boca é um vinho de boa estrutura e final persistente, harmoniza com queijos de média intensidade, risoto ao ragu de fraldinha e vazio grelhado."
+  },
+  {
+    title: "DV Catena Malbec Malbec",
+    value: "360,00",
+    image_url: "",
+    state: "AR",
+    description: "Uva: Malbac, longo e saboroso, harmoniza com carnes, cordeiro e alta gastronomia"
+  },
+  {
+    title: "Cartuxa Évora ",
+    value: "399,00",
+    image_url: "",
+    state: "PT",
+    description: "Uva: Alicante Bouschet, Aragonez e Trincadeira, notas frutadas conjugadas a toques de couro, em boca macio e sedutor é um vinho tinto encorpado e cheio de sabor, harmoniza com massas, risotos, pratos de carnes vermelhas e carnes de caça"
+  },
+]
+
+export const WineWhite = [
+  {
+    title: "Arte de Argento Pinot Grigio",
+    value: "159,00",
+    image_url: "",
+    state: "ARG",
+    description: "Uva: Pinot Grigio, apresenta uma coloração amarelo esverdeado com reflexos dourados, aromas de frutas tropicais, camomila e florais. No paladar, é leve, delicado, fresco e persistente, harmoniza com aves e queijos."
+  },
+  {
+    title: "Siegel Handpicked Sauvignon Blanc",
+    value: "160,00",
+    image_url: "",
+    state: "CL",
+    description: "Uva: Sauvignon Blanc, aroma intenso de frutas tropicais e cítricas, com delicadas notas de ervas, em boca presenta um paladar equilibrado com acidez agradável e macio com final persistente, harmoniza com sushis e frutos do mar."
+  },
+  {
+    title: "Becas Delle Venezie DOC Pinot Grigio",
+    value: "169,00",
+    image_url: "",
+    state: "IT",
+    description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar ."
+  },
+  {
+    title: "Thera Sauvignon Blanc",
+    value: "210,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: Sauvignon Blanc, frescor intenso, suculência e um final persistente que acaricia o paladar, harmoniza com queijos brancos macios, massas ao pesto ou vôngole, peixes brancos com molhos cítricos, ceviches, mariscos ao vinagrete, vieira, comida japonesa fria, risotos de alho poró ou aspargos"
+  },
+  {
+    title: "Albert Bichot Domaine Long-Depaquit Chablis",
+    value: "498,00",
+    image_url: "",
+    state: "FR",
+    description: "Uva: Chardonnay, muito puro que remete a frutas cítricas, flores brancas e uma nota de pedra molhada muito típica de chablis. Em boca elegante em uma combinação de notas de amêndoas e encantadora vivacidade, harmoniza com entradas, peixes variados, comida japonesa."
+  },
+]
+
+export const WineRose = [
+  {
+    title: "Conclave Reserva Rosé",
+    value: "166,00",
+    image_url: "",
+    state: "ARG",
+    description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
+  },
+  {
+    title: "Tantehue Rosé",
+    value: "154,00",
+    image_url: "",
+    state: "CL",
+    description: "Uva: Cabernet Sauvignon, aroma rico em frutas com notas de morangos frescos, cerejas e framboesa, em boca frutado, com suaves fragrâncias florais com toques violeta, harmoniza com peixes, mariscos, aves e queijos frescos."
+  },
+  {
+    title: "Pardalito Vinho Verde DOC",
+    value: "154,00",
+    image_url: "",
+    state: "PT",
+    description: "Uva: Espadeiro, Vinhão, Borraçal, agradáveis aromas de frutas vermelhas frescas, como morango e framboesas, em boca as notas frutadas de destacam, além de acidez marcante, harmoniza com salada de frutas com sorvete, sushi, saladas."
+  },
+  {
+    title: "Thera Rosé",
+    value: "210,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: Cabernet Franc e Syrah"
+  },
+  {
+    title: "VRF a Bichot Cest La Vie Rosé",
+    value: "210,00",
+    image_url: "",
+    state: "FR",
+    description: "Uva: Syrah Grenache"
+  },
+  {
+    title: "Villa Francioni Rosé 750ml",
+    value: "220,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
+  },
+  {
+    title: "Villa Francioni Rosé 1,750ml",
+    value: "398,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
+  },
+]
+
+export const Espumant = [
+  {
+    title: "Ponto Nero Brut",
+    value: "159,00",
+    image_url: "",
+    state: "",
+    description: "Uva: chardonnay, pinot noir e riesling itálico, leve, fresco, acidez viva, cremoso, harmoniza com canapés, risotto de gorgonzola e nhoque de mandioquinha"
+  },
+  {
+    title: "Ponto Nero Brut Rosé",
+    value: "159,00",
+    image_url: "",
+    state: "",
+    description: "Uva: chardonnay, pinot noir, macio, refrescante, acidez refrescante, harmoniza com frutos do mar, camarão, salmão, risotto de tomate seco e sushi"
+  },
+  
+  {
+    title: "Chandon Magnum Brut 1,5 Litros",
+    value: "460,00",
+    image_url: "",
+    state: "",
+    description: "Uva: pinot noir, riesling itálico, chardonnay, refrescante, vibrante, com final sedoso, harmoniza com aperitivos, charcutaria, carpaccio, culinária japonesa e saladas"
+  },
+  {
+    title: "Clericot Ponto Nero",
+    value: "210,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 1 garrafa de espumante brut ou rosé + licor de laranja + frutas da estação"
+  },
+  {
+    title: "Clericot Chandon",
+    value: "266,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha 1 garrafa de espumante + licor de laranja + frutas da estação"
+  }
+]
+
+export const Champagnes = [
+  {
+    title: "Taittinger",
+    value: "990,00",
+    image_url: "",
+    state: "",
+    description: "Uva: blend de uvas, harmoniza com caviar, ostras e frutos do mar"
+  },
+  {
+    title: "Dom Pérginon Luminous Brut",
+    value: "2990,00",
+    image_url: "",
+    state: "",
+    description: "Uva: pinot noir, chardonnay, harmoniza com ostras, caviar e pratos sofisticados"
+  },
+  {
+    title: "Veuve Clicquot Brut",
+    value: "890,00",
+    image_url: "",
+    state: "",
+    description: "Uva: chardonnay, pinot noir e pinot meunier, harmoniza com aperitivos, frutos do mar, tartar de peixe, queijo parmesão, salmão, torradas e massas."
+  }
+]
