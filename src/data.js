@@ -516,21 +516,21 @@ export const ClassicDrinks = [
     value: "32,00",
     image_url: CaiAbacaxi,
     state: "",
-    description: "Opções: Limão, Abacaxi, Morango."
+    description: "Opções: Limão, Abacaxi."
   },
   {
     title: "Caipvodka Premium",
     value: "40,00",
     image_url: CaipMorango,
     state: "",
-    description: "Opções: Limão, Abacaxi, Morango."
+    description: "Opções: Limão, Abacaxi."
   },
   {
     title: "Caipirinha de Cachaça",
     value: "32,00",
     image_url: CaipLimao,
     state: "",
-    description: "Opções: Limão, Abacaxi, Morango."
+    description: "Opções: Limão, Abacaxi."
   },
   {
     title: "Cosmopolitan",
@@ -653,20 +653,6 @@ export const Exclusive = [
     image_url: MagicPosion,
     state: "",
     description: "Vodga citrion, suco de limão siciliano, xarope de morango, monin curaçau blue, anis estrelado e aquafaba."
-  },
-  {
-    title: "Poseidon",
-    value: "34,00",
-    image_url: Poseidon,
-    state: "",
-    description: "Rum de coco, suco de gengibre, suco de limão taiti e purê de pessego."
-  },
-  {
-    title: "Tridente",
-    value: "39,00",
-    image_url: Tridente,
-    state: "",
-    description: "Whiskey burbon, purê de pessego, suco de limão taiti, vermut rosso e canela em pau."
   },
   {
     title: "Tribuzana",
@@ -1099,13 +1085,6 @@ export const WineTinto = [
 
 export const WineWhite = [
   {
-    title: "Arte de Argento Pinot Grigio",
-    value: "159,00",
-    image_url: "",
-    state: "ARG",
-    description: "Uva: Pinot Grigio, apresenta uma coloração amarelo esverdeado com reflexos dourados, aromas de frutas tropicais, camomila e florais. No paladar, é leve, delicado, fresco e persistente, harmoniza com aves e queijos."
-  },
-  {
     title: "Siegel Handpicked Sauvignon Blanc",
     value: "160,00",
     image_url: "",
@@ -1142,13 +1121,6 @@ export const WineRose = [
     image_url: "",
     state: "ARG",
     description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
-  },
-  {
-    title: "Tantehue Rosé",
-    value: "154,00",
-    image_url: "",
-    state: "CL",
-    description: "Uva: Cabernet Sauvignon, aroma rico em frutas com notas de morangos frescos, cerejas e framboesa, em boca frutado, com suaves fragrâncias florais com toques violeta, harmoniza com peixes, mariscos, aves e queijos frescos."
   },
   {
     title: "Pardalito Vinho Verde DOC",
