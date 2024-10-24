@@ -905,13 +905,6 @@ export const Bottles = [
     description: ""
   },
   {
-    title: "Whisky Blue Label",
-    value: "1800,00",
-    image_url: "",
-    state: "",
-    description: ""
-  },
-  {
     title: "Royal Salut",
     value: "2200,00",
     image_url: "",
@@ -1030,7 +1023,7 @@ export const Beers = [
     description: "Pilsen"
   },
   {
-    title: "Balde de Corona",
+    title: "Combo de Corona",
     value: "85,00",
     image_url: "",
     state: "",
@@ -1051,7 +1044,7 @@ export const Beers = [
     description: ""
   },
   {
-    title: "Balde de Spaten",
+    title: "Combo de Spaten",
     value: "65,00",
     image_url: "",
     state: "",
@@ -1086,7 +1079,7 @@ export const WineTinto = [
     value: "360,00",
     image_url: "",
     state: "AR",
-    description: "Uva: Malbac, longo e saboroso, harmoniza com carnes, cordeiro e alta gastronomia"
+    description: "Uva: Malbac, aromas de frutas negras e vermelhas, como ameixa e amora, além de notas de especiarias, como pimenta-preta e cravo-da-índia, em boca é longo e saboroso, harmoniza com carnes, cordeiro e alta gastronomia."
   },
   {
     title: "Cartuxa Évora ",
@@ -1133,7 +1126,7 @@ export const WineRose = [
     title: "Conclave Reserva Rosé",
     value: "166,00",
     image_url: "",
-    state: "ARG",
+    state: "AR",
     description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
   },
   {
@@ -1144,32 +1137,39 @@ export const WineRose = [
     description: "Uva: Espadeiro, Vinhão, Borraçal, agradáveis aromas de frutas vermelhas frescas, como morango e framboesas, em boca as notas frutadas de destacam, além de acidez marcante, harmoniza com salada de frutas com sorvete, sushi, saladas."
   },
   {
+    title: "Callia Rosé",
+    value: "160,00",
+    image_url: "",
+    state: "AR",
+    description: "Uva: Malbec e syrah, revela aromas frescos e frutados, com notas de morango, framboesa, cereja, e toques florais leves, como pétalas de rosa, em boca, é um vinho leve e refrescante, com uma acidez equilibrada, harmoniza com saladas frescas, pratos leves à base de frutos do mar, sushi, carnes brancas grelhadas e pratos da culinária mediterrânea."
+  },
+  {
     title: "Thera Rosé",
     value: "210,00",
     image_url: "",
     state: "BR",
-    description: "Uva: Cabernet Franc e Syrah"
+    description: "Uva: Cabernet Franc, syrah e merlot, com aromas de pêssego e pequenos frutos vermelhos, em boca frescor tropical, acidez equilibrada e ótima persistência, harmoniza com camarão na moranga, sushi, embutidos."
   },
   {
     title: "VRF a Bichot Cest La Vie Rosé",
     value: "210,00",
     image_url: "",
     state: "FR",
-    description: "Uva: Syrah Grenache"
+    description: "Uva: Syrah, notas de frutas vermelhas frescas, em boca seco, corpo leve com notas de frutas vermelhas frescas de boa acidez, harmoniza com frutos do mar e salmão grelhado."
   },
   {
     title: "Villa Francioni Rosé 750ml",
     value: "220,00",
     image_url: "",
     state: "BR",
-    description: "Uva: cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
+    description: "Uva: Cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
   },
   {
     title: "Villa Francioni Rosé 1,750ml",
     value: "398,00",
     image_url: "",
     state: "BR",
-    description: "Uva: cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
+    description: "Uva: Cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
   },
 ]
 
@@ -1178,22 +1178,36 @@ export const Espumant = [
     title: "Ponto Nero Brut",
     value: "159,00",
     image_url: "",
-    state: "",
-    description: "Uva: chardonnay, pinot noir e riesling itálico, leve, fresco, acidez viva, cremoso, harmoniza com canapés, risotto de gorgonzola e nhoque de mandioquinha"
+    state: "BR",
+    description: "Uva: Chardonnay, pinot noir e riesling itálico, leve, fresco, acidez viva, cremoso, harmoniza com canapés, risotto de gorgonzola e nhoque de mandioquinha"
   },
   {
     title: "Ponto Nero Brut Rosé",
     value: "159,00",
     image_url: "",
-    state: "",
-    description: "Uva: chardonnay, pinot noir, macio, refrescante, acidez refrescante, harmoniza com frutos do mar, camarão, salmão, risotto de tomate seco e sushi"
+    state: "BR",
+    description: "Uva: Chardonnay, pinot noir, macio, refrescante, acidez refrescante, harmoniza com frutos do mar, camarão, salmão, risotto de tomate seco e sushi"
+  },
+  {
+    title: "Chandon Brut",
+    value: "230,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: Pinot noir, riesling itálico, chardonnay, notas de frutas cítricas, frutas secas, flores brancas e toques de pão fresco em boca refrescante, frutado e fácil de beber, harmoniza com canapés de salmão defumado."
+  },
+  {
+    title: "Chandon Brut Rosé",
+    value: "230,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: Pinot noir, riesling itálico, chardonnay, notas de morango, amora, framboesa e acerola com toque sutil de especiarias doces em boca quilibrado, fresco, cremoso e aveludado, harmoniza com carnes brancas, peixes, frutos do mar e petiscos."
   },
   {
     title: "Chandon Magnum Brut 1,5 Litros",
     value: "460,00",
     image_url: "",
-    state: "",
-    description: "Uva: pinot noir, riesling itálico, chardonnay, refrescante, vibrante, com final sedoso, harmoniza com aperitivos, charcutaria, carpaccio, culinária japonesa e saladas"
+    state: "BR",
+    description: "Uva: Pinot noir, riesling itálico, chardonnay, refrescante, vibrante, com final sedoso, harmoniza com aperitivos, charcutaria, carpaccio, culinária japonesa e saladas"
   },
   {
     title: "Clericot Ponto Nero",
@@ -1216,21 +1230,21 @@ export const Champagnes = [
     title: "Taittinger",
     value: "990,00",
     image_url: "",
-    state: "",
-    description: "Uva: blend de uvas, harmoniza com caviar, ostras e frutos do mar"
+    state: "FR",
+    description: "Uva: Chardonnay, pinot noir e pinot meunier, notas de maçã, limão fresco e minerais, em boca encorpado e preciso, com notas de pimenta branca e sal no final, harmoniza com peixes, frutos do mar e aperitivos."
   },
   {
     title: "Dom Pérginon Luminous Brut",
     value: "2990,00",
     image_url: "",
-    state: "",
-    description: "Uva: pinot noir, chardonnay, harmoniza com ostras, caviar e pratos sofisticados"
+    state: "FR",
+    description: "Uva: pinot noir, chardonnay, aroma complexo e evoluído, com notas de frutas brancas e cítricas, brioche tostado, mel, amêndoas, especiarias e toques minerais, em boca encorpado, cremoso e sedoso, com bolhas finas e persistentes, harmoniza com frutos do mar nobres, carnes brancas, pratos à base de trufas, queijos maturos e sobremesas especiais."
   },
   {
     title: "Veuve Clicquot Brut",
     value: "890,00",
     image_url: "",
-    state: "",
-    description: "Uva: chardonnay, pinot noir e pinot meunier, harmoniza com aperitivos, frutos do mar, tartar de peixe, queijo parmesão, salmão, torradas e massas."
+    state: "FR",
+    description: "Uva: chardonnay, pinot noir e pinot meunier, aromas de pêssego, ameixa, pera, baunilha e brioche, em boca tem força e maciez em perfeito equilíbrio, harmoniza com aperitivos, frutos do mar, tartar de peixe, queijo parmesão, salmão, torradas e massas."
   }
 ]
