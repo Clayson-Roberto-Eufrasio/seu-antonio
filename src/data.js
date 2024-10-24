@@ -516,21 +516,21 @@ export const ClassicDrinks = [
     value: "32,00",
     image_url: CaiAbacaxi,
     state: "",
-    description: "Opções: Limão, Abacaxi."
+    description: "Opções: Limão, Abacaxi, Morango."
   },
   {
     title: "Caipvodka Premium",
     value: "40,00",
     image_url: CaipMorango,
     state: "",
-    description: "Opções: Limão, Abacaxi."
+    description: "Opções: Limão, Abacaxi, Morango."
   },
   {
     title: "Caipirinha de Cachaça",
     value: "32,00",
     image_url: CaipLimao,
     state: "",
-    description: "Opções: Limão, Abacaxi."
+    description: "Opções: Limão, Abacaxi, Morango."
   },
   {
     title: "Cosmopolitan",
@@ -653,6 +653,20 @@ export const Exclusive = [
     image_url: MagicPosion,
     state: "",
     description: "Vodga citrion, suco de limão siciliano, xarope de morango, monin curaçau blue, anis estrelado e aquafaba."
+  },  
+  {
+    title: "Poseidon",
+    value: "34,00",
+    image_url: Poseidon,
+    state: "",
+    description: "Rum de coco, suco de gengibre, suco de limão taiti e purê de pessego."
+  },
+  {
+    title: "Tridente",
+    value: "39,00",
+    image_url: Tridente,
+    state: "",
+    description: "Whiskey burbon, purê de pessego, suco de limão taiti, vermut rosso e canela em pau."
   },
   {
     title: "Tribuzana",
