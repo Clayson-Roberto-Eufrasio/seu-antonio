@@ -477,6 +477,13 @@ export const ClassicDrinks = [
     description: "Dose de gin bombay com tônica."
   },
   {
+    title: "Cello spritz",
+    value: "40,00",
+    image_url: "",
+    state: "",
+    description: "Licor limoncello, espumante brut e água com gás."
+  },
+  {
     title: "Tropical Gin",
     value: "40,00",
     image_url: TropicalGin,
@@ -540,6 +547,13 @@ export const ClassicDrinks = [
     description: "Vodka com infusão de cítricos, licor triple sec, xarope de cramberry, suco de limão siciliano."
   },
   {
+    title: "Fitzgerald",
+    value: "38,00",
+    image_url: "",
+    state: "",
+    description: "Dose de gin, bitter angustura, açúcar e suco de limão taíti."
+  },
+  {
     title: "Moscow Mule",
     value: "36,00",
     image_url: MoscowMule,
@@ -573,6 +587,13 @@ export const ClassicDrinks = [
     image_url: Carajillo,
     state: "",
     description: "Licor 43 e café expresso."
+  },
+  {
+    title: "Iara",
+    value: "40,00",
+    image_url: "",
+    state: "",
+    description: "Brandy, xarope flor de sabugueiro, suco de limão taíti e chá tropical gaseificado."
   },
   {
     title: "Negroni",
@@ -1104,6 +1125,13 @@ export const WineWhite = [
     image_url: "",
     state: "IT",
     description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar ."
+  },
+  {
+    title: "Callia Chardonnay",
+    value: "160,00",
+    image_url: "",
+    state: "AR",
+    description: "Uva: Chardonnay, apresenta aromas complexos, intensamente frutados, com notas de pêssegos e mel, em boca, uma experiência plena e ampla revela-se, com distinção de sabores frutados de abacaxi e pera, harmoniza com peixes assados ou grelhados, massas com molho branco ou recheadas com legumes e carnes suínas grelhadas."
   },
   {
     title: "Thera Sauvignon Blanc",
