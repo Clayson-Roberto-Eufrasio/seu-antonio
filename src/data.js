@@ -1112,13 +1112,7 @@ export const WineTinto = [
 ]
 
 export const WineWhite = [
-  {
-    title: "Siegel Handpicked Sauvignon Blanc",
-    value: "160,00",
-    image_url: "",
-    state: "CL",
-    description: "Uva: Sauvignon Blanc, aroma intenso de frutas tropicais e cítricas, com delicadas notas de ervas, em boca presenta um paladar equilibrado com acidez agradável e macio com final persistente, harmoniza com sushis e frutos do mar."
-  },
+
   {
     title: "Becas Delle Venezie DOC Pinot Grigio",
     value: "169,00",
