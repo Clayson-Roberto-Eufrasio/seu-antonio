@@ -1,8 +1,7 @@
 // src/MenuList.jsx
-import React, { useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import MenuItem from './MenuItem';
-import ItemModal from './ItemModal';
 
 const CardContainer = styled.div`
   background-color: transparent;
@@ -14,37 +13,70 @@ const ListContainer = styled.div`
   margin: auto;
 `;
 
+const ItemWrapper = styled.div`
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease, filter 0.5s ease, transform 0.5s ease;
+
+  &.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+`;
 
 const MenuList = ({ items }) => {
-  const [selectedItem, setSelectedItem] = useState(null); // Estado para armazenar o item selecionado
-  const [isModalOpen, setIsModalOpen] = useState(false); // Estado para controlar a visibilidade do modal
+  const refs = useRef([]); // Refs para os itens
 
-  // Função chamada ao clicar em um item da lista
-  const handleItemClick = (item) => {
-    setSelectedItem(item); // Define o item selecionado
-    setIsModalOpen(false); // Abre o modal, para funcionar corretamete nescessario alterar para true
+  // Função de callback para o IntersectionObserver simplificada
+  const handleIntersection = (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible"); // Adiciona a classe 'visible' ao elemento
+      } else {
+        entry.target.classList.remove("visible"); // Remove a classe 'visible' ao elemento
+      }
+    });
   };
-  
-    // Função para fechar o modal
-  const closeModal = () => {
-    setIsModalOpen(false); // Fecha o modal
-    setSelectedItem(null); // Limpa o item selecionado
-  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(handleIntersection, {
+      threshold: 0 // Define um threshold para considerar o item como visível
+    });
+
+    const elements = refs.current;
+    elements.forEach(element => {
+      if (element) {
+        observer.observe(element); // Observa cada elemento
+      }
+    });
+
+    return () => {
+      elements.forEach(element => {
+        if (element) {
+          observer.unobserve(element); // Cancela a observação ao desmontar
+        }
+      });
+    };
+  }, [items]);
 
   return (
     <CardContainer>
       <ListContainer className='section'>
         {items.map((item, index) => (
-          <div key={index} onClick={() => handleItemClick(item)}>
+          <ItemWrapper
+            ref={el => refs.current[index] = el} // Adiciona a ref ao elemento
+            key={index}
+            data-title={item.title} // Adiciona um atributo data-title para identificar o item
+          >
             <MenuItem
               key={index}
               item={item}
             />
-          </div>
+          </ItemWrapper>
         ))}
       </ListContainer>
-      {/* Componente ItemModal para exibir o item selecionado */}
-      <ItemModal isOpen={isModalOpen} onRequestClose={closeModal} item={selectedItem} />
     </CardContainer>
   );
 };

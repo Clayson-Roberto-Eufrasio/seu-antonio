@@ -45,7 +45,7 @@ const Description = styled.p`
 const MenuItem = ({ item }) => {
 
   return (
-    <CardContainer >
+    <CardContainer>
       <Title>{item.title}</Title>
       {item.image_url ? (
         <img src={item.image_url} alt={item.title} style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
@@ -53,7 +53,7 @@ const MenuItem = ({ item }) => {
         <></>
       )}
       <Description>{item.description}</Description>
-      <Flag code={item.state} style={{ width: 35, height: 35}}/>
+      <Flag code={item.state} style={{ width: 24, height: 17}}/>
       <Price>R$ {item.value}</Price>
     </CardContainer>
   );
