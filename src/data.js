@@ -1112,13 +1112,19 @@ export const WineTinto = [
 ]
 
 export const WineWhite = [
-
+  {
+    title: "Becas Reserva Sauvignon Blanc",
+    value: "150,00",
+    image_url: "",
+    state: "CL",
+    description: "Uva: Sauvignon Blanc, notas de frutas tropicais e cítricas, especialmente de maracujá perfeitamente balanceado com pêssego, em boca ressalta os aromas do olfato e traz uma acidez refrescante, harmoniza com mariscos, salada poke e vegetais grelhados."
+  },
   {
     title: "Becas Delle Venezie DOC Pinot Grigio",
     value: "169,00",
     image_url: "",
     state: "IT",
-    description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar ."
+    description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar."
   },
   {
     title: "Callia Chardonnay",
@@ -1152,11 +1158,11 @@ export const WineRose = [
     description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
   },
   {
-    title: "Pardalito Vinho Verde DOC",
-    value: "154,00",
+    title: "Becas Mediterranee Grenache Rosé",
+    value: "169,00",
     image_url: "",
-    state: "PT",
-    description: "Uva: Espadeiro, Vinhão, Borraçal, agradáveis aromas de frutas vermelhas frescas, como morango e framboesas, em boca as notas frutadas de destacam, além de acidez marcante, harmoniza com salada de frutas com sorvete, sushi, saladas."
+    state: "IT",
+    description: "Uva: Grenache, notas de frutas vermelhas e frutas cítricas, com destaque para morangos e framboesas maduras, em boca desenvolve uma sensação suave com uma agradável frescura e elegante acidez, e boa persistência, harmoniza com frutos do mar, sushis e sorbet de goiaba."
   },
   {
     title: "Callia Rosé",
