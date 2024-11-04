@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import GlobalStyles from './GlobalStyles';
 import Header from './components/Header';
 import MenuList from './components/MenuList';
-import Footer from './components/Footer';
 import { categoryTranslations } from '../src/utils/categoryTranslations'; // Importa as traduções
 
 import {
@@ -59,7 +58,6 @@ const App = () => {
       <GlobalStyles />
       <Header category={categoryTranslations[selectedCategory]} setSelectedCategory={setSelectedCategory}/>
       <MenuList items={dataCategories[selectedCategory]} />
-      <Footer setSelectedCategory={setSelectedCategory} />
     </div>
   );
 };

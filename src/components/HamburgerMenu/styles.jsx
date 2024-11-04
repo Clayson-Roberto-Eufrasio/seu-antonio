@@ -5,14 +5,14 @@ import fundoMenu from '../../images/fundoMenuPequeno.jpg';
 export const HamburgerMenuStyled = styled.div`
   .hamburger-menu {
     position: absolute;
-    top: 175px;
+    top: 147px;
     right: 15px;
     z-index: 1000;
   }
 
   .fixedHamburguer {
     position: fixed !important;
-    top: 32px !important;
+    top: 18px !important;
     right: 15px;
     z-index: 1000;
   }

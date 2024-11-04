@@ -1,7 +1,6 @@
 // src/components/Header.jsx
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-
 import HeaderBackgroundContainer from './HeaderBackgroundContainer';
 import ContainerLogo from './ContainerLogo';
 import ContainerIcons from './ContainerIcons';
@@ -33,7 +32,7 @@ const HeaderContainer = styled.header`
     padding-top: 11px;
     color: #f7f5f2;
     text-shadow: 2px 2px 5px black;
-    height: 88px;
+    height: 65px;
     font-size: 18px;
     margin-top: -15px;
     display: flex;

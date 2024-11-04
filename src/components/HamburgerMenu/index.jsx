@@ -8,10 +8,12 @@ const HamburgerMenu = ({ setSelectedCategory, nameHanburguer }) => {
   const categories = Object.keys(categoryTranslations);
   const menuRef = useRef(null);
 
+  const scrollToTop = () => window.scrollTo({ top: 150, behavior: 'smooth' });
   const scrollToTopFull = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
   const toggleMenu = () => {
     setIsOpen((prevIsOpen) => !prevIsOpen);
+    scrollToTop()
   };
 
   const toggleMenuClose = () => {
