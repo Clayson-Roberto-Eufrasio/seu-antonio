@@ -115,13 +115,6 @@ export const Appetizer = [
     description: "Cubos de salmão, molho de ostras, shoyu, gergelim, azeite de oliva, limão, cebola roxa, abacate, manga e pepino."
   },
   {
-    title: "Ceviche de Ostras",
-    value: "57,00",
-    image_url: "",
-    state: "",
-    description: "Ostras in natura, cebola roxa, pimenta dedo de moça, molho de ostras e coentro fresco."
-  },
-  {
     title: "Camarão Acebolado",
     value: "70,00",
     image_url: CamaraoAcebolado,
@@ -176,7 +169,14 @@ export const Appetizer = [
     image_url: OstrasAoBafo,
     state: "",
     description: "6 Unid. de ostras, cozidas ao bafo com raspas de limão."
-  }
+  },
+  {
+    title: "Ceviche de Ostras",
+    value: "57,00",
+    image_url: "",
+    state: "",
+    description: "Ostras in natura, cebola roxa, pimenta dedo de moça, molho de ostras e coentro fresco."
+  },
 ]
 
 export const Appetizers = [
@@ -221,21 +221,7 @@ export const Appetizers = [
     image_url: DadinhoDeTapioca,
     state: "",
     description: "Acompanha geleia de pimenta."
-  },  
-  {
-    title: "Bolinho de Costela",
-    value: "37,00",
-    image_url: "",
-    state: "",
-    description: "Acompanha molho verde."
-  },  
-  {
-    title: "Bolinho de Camarão",
-    value: "37,00",
-    image_url: "",
-    state: "",
-    description: "Acompanha molho de pimenta."
-  },  
+  },   
   {
     title: "Mini Pastel de Brie",
     value: "38,00",
@@ -256,7 +242,21 @@ export const Appetizers = [
     image_url: CamaraoNoVaral,
     state: "",
     description: "Camarão empanado no panko acompanhado com molho de pimenta e molho verde."
-  }
+  },
+  {
+    title: "Bolinho de Costela",
+    value: "37,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha molho verde."
+  },  
+  {
+    title: "Bolinho de Camarão",
+    value: "37,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha molho de pimenta."
+  }, 
 ]
 
 export const Mains = [
@@ -324,20 +324,19 @@ export const Mains = [
     description: "Ragu de filé mignon com manjericão, pomodoro farofa de pangrattato e queijo parmesão."
   },
   {
+    title: "Risotto de Cogumelos",
+    value: "74,00",
+    image_url: RisottoDeCogumelos,
+    state: "",
+    description: "Risoto cremoso com mix de cogumelos e queijo parmesão."
+  },
+    {
     title: "Paillard de Filé Mignon",
     value: "82,00",
     image_url: "",
     state: "",
     description: "Filé mignon batido ao molho de nata e mix de cogumelos com fettuccine."
   },
-  
-  {
-    title: "Risotto de Cogumelos",
-    value: "74,00",
-    image_url: RisottoDeCogumelos,
-    state: "",
-    description: "Risoto cremoso com mix de cogumelos e queijo parmesão."
-  }
 ]
 
 export const ToShare = [
@@ -349,25 +348,11 @@ export const ToShare = [
     description: "Peixe inteiro ao molho Belle Meunière acompanhado de arroz com brócolis, mini batatas e legumes salteados."
   },
   {
-    title: "Moqueca de Peixe",
-    value: "180,00",
-    image_url: "",
-    state: "",
-    description: "Peixe, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz e aipim na manteiga."
-  },
-  {
     title: "Moqueca Mista",
     value: "189,00",
     image_url: MoquecaMista,
     state: "",
     description: "Peixe, Camarões, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz de coco e aipim."
-  },
-  {
-    title: "Camarão 4 Queijos",
-    value: "194,00",
-    image_url: "",
-    state: "",
-    description: "Camarão ao molho 4 queijos, acompanha arroz ao shoyu com amêndoas e batatas ao murro."
   },
   {
     title: "Paella de Frutos do Mar",
@@ -389,7 +374,21 @@ export const ToShare = [
     image_url: PoseidonReiDosMares,
     state: "",
     description: "Camarão grelhado, polvo, salmão, ostras gratinadas, ostras in natura, camarões empanados, legumes e arroz."
-  }
+  },
+  {
+    title: "Camarão 4 Queijos",
+    value: "194,00",
+    image_url: "",
+    state: "",
+    description: "Camarão ao molho 4 queijos, acompanha arroz ao shoyu com amêndoas e batatas ao murro."
+  },  
+  {
+    title: "Moqueca de Peixe",
+    value: "180,00",
+    image_url: "",
+    state: "",
+    description: "Peixe, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz e aipim na manteiga."
+  },
 ]
 
 export const Kids = [
@@ -477,13 +476,6 @@ export const ClassicDrinks = [
     description: "Dose de gin bombay com tônica."
   },
   {
-    title: "Cello spritz",
-    value: "40,00",
-    image_url: "",
-    state: "",
-    description: "Licor limoncello, espumante brut e água com gás."
-  },
-  {
     title: "Tropical Gin",
     value: "40,00",
     image_url: TropicalGin,
@@ -496,20 +488,6 @@ export const ClassicDrinks = [
     image_url: TropicalGin,
     state: "",
     description: "Dose de gin bombay e 1 red bull tropical."
-  },
-  {
-    title: "67 kal",
-    value: "40,00",
-    image_url: "",
-    state: "",
-    description: "Dose de gin nacional e 1 red bull zero."
-  },
-  {
-    title: "67 kal Premium",
-    value: "45,00",
-    image_url: "",
-    state: "",
-    description: "Dose de gin bombay e 1 red bull zero."
   },
   {
     title: "Red Bull com Vodka",
@@ -547,13 +525,6 @@ export const ClassicDrinks = [
     description: "Vodka com infusão de cítricos, licor triple sec, xarope de cramberry, suco de limão siciliano."
   },
   {
-    title: "Fitzgerald",
-    value: "38,00",
-    image_url: "",
-    state: "",
-    description: "Dose de gin, bitter angustura, açúcar e suco de limão taíti."
-  },
-  {
     title: "Moscow Mule",
     value: "36,00",
     image_url: MoscowMule,
@@ -587,13 +558,6 @@ export const ClassicDrinks = [
     image_url: Carajillo,
     state: "",
     description: "Licor 43 e café expresso."
-  },
-  {
-    title: "Iara",
-    value: "40,00",
-    image_url: "",
-    state: "",
-    description: "Brandy, xarope flor de sabugueiro, suco de limão taíti e chá tropical gaseificado."
   },
   {
     title: "Negroni",
@@ -636,7 +600,42 @@ export const ClassicDrinks = [
     image_url: OldFashion,
     state: "",
     description: "Whisky burbon, açúcar e angustura."
-  }
+  },
+  {
+    title: "67 kal",
+    value: "40,00",
+    image_url: "",
+    state: "",
+    description: "Dose de gin nacional e 1 red bull zero."
+  },
+  {
+    title: "67 kal Premium",
+    value: "45,00",
+    image_url: "",
+    state: "",
+    description: "Dose de gin bombay e 1 red bull zero."
+  },
+  {
+    title: "Cello spritz",
+    value: "40,00",
+    image_url: "",
+    state: "",
+    description: "Licor limoncello, espumante brut e água com gás."
+  },
+  {
+    title: "Fitzgerald",
+    value: "38,00",
+    image_url: "",
+    state: "",
+    description: "Dose de gin, bitter angustura, açúcar e suco de limão taíti."
+  },
+  {
+    title: "Iara",
+    value: "40,00",
+    image_url: "",
+    state: "",
+    description: "Brandy, xarope flor de sabugueiro, suco de limão taíti e chá tropical gaseificado."
+  },
 ]
 
 export const Exclusive = [
@@ -700,13 +699,6 @@ export const Exclusive = [
 
 export const NonAlcoholicDrinks = [
   {
-    title: "Sambaqui",
-    value: "36,00",
-    image_url: "",
-    state: "",
-    description: "Purê de frutas framboesa, xarope de framboesa, suco de limão Taiti e aquafaba."
-  },
-  {
     title: "Moscow Mule Sem Álcool",
     value: "32,00",
     image_url: MoscowMule,
@@ -719,7 +711,14 @@ export const NonAlcoholicDrinks = [
     image_url: SodaFrutasVermelhas,
     state: "",
     description: "Opções: consultar sabores."
-  }
+  },
+  {
+    title: "Sambaqui",
+    value: "36,00",
+    image_url: "",
+    state: "",
+    description: "Purê de frutas framboesa, xarope de framboesa, suco de limão Taiti e aquafaba."
+  },
 ]
 
 export const Combos = [

@@ -1,7 +1,6 @@
 // src/components/Header.jsx
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-
 import HeaderBackgroundContainer from './HeaderBackgroundContainer';
 import ContainerLogo from './ContainerLogo';
 import ContainerIcons from './ContainerIcons';
@@ -33,7 +32,7 @@ const HeaderContainer = styled.header`
     padding-top: 11px;
     color: #f7f5f2;
     text-shadow: 2px 2px 5px black;
-    height: 88px;
+    height: 65px;
     font-size: 18px;
     margin-top: -15px;
     display: flex;
@@ -44,7 +43,6 @@ const HeaderContainer = styled.header`
 
 const Header = ({ category, setSelectedCategory }) => {
   const [isFixed, setIsFixed] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const headerRef = useRef(null);
   const placeholderRef = useRef(null);
 
@@ -55,7 +53,7 @@ const Header = ({ category, setSelectedCategory }) => {
       setIsFixed(headerTop <= 0);
     }
   };
-
+  
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => {
@@ -70,11 +68,11 @@ const Header = ({ category, setSelectedCategory }) => {
         <ContainerLogo />
         <ContainerIcons />
         <div ref={placeholderRef}></div> {/* Placeholder div to maintain layout height */}
-        <div ref={headerRef} className={isFixed || isMenuOpen ? 'fixed' : 'header-content'}>
+        <div ref={headerRef} className={isFixed ? 'fixed' : 'header-content'}>
           <div id="containerH2">
             <h2>{category}</h2>
           </div>
-          <HamburgerMenu setSelectedCategory={setSelectedCategory} nameHanburguer={isFixed || isMenuOpen ? "fixedHamburguer" : "hamburger-menu"} setIsMenuOpen={setIsMenuOpen}/>
+          <HamburgerMenu setSelectedCategory={setSelectedCategory} nameHanburguer={isFixed ? "fixedHamburguer" : "hamburger-menu"}/>
         </div>
       </HeaderContainer>
     </>

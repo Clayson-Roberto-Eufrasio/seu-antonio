@@ -1,19 +1,18 @@
 // src/components/HamburgerMenu/styles.jsx
-
 import styled from 'styled-components';
-import fundoMenu from '../../images/fundoMenuPequeno.jpg'
+import fundoMenu from '../../images/fundoMenuPequeno.jpg';
 
 export const HamburgerMenuStyled = styled.div`
   .hamburger-menu {
     position: absolute;
-    top: 175px;
+    top: 147px;
     right: 15px;
     z-index: 1000;
   }
 
   .fixedHamburguer {
     position: fixed !important;
-    top: 32px !important;
+    top: 18px !important;
     right: 15px;
     z-index: 1000;
   }
@@ -49,9 +48,9 @@ export const HamburgerIcon = styled.div`
 
 export const MenuContent = styled.div`
   width: 90%;
-  max-height: 80vh; /* Set a maximum height for scrolling */
-  overflow-y: auto; /* Enable vertical scrolling */
-  position: fixed; /* Fixed positioning to stay in front of other elements */
+  max-height: 80vh;
+  overflow-y: auto;
+  position: fixed;
   top: 87px;
   right: 6px;
   background-image: url(${fundoMenu});
@@ -62,7 +61,18 @@ export const MenuContent = styled.div`
   border-radius: 30px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  z-index: 9999; /* Ensure it's in front of other elements */
+  z-index: 9999;
+
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateX(100%);
+  transition: opacity 0.5s ease, filter 0.5s ease, transform 0.5s ease;
+
+  &.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
 
   ul {
     list-style: none;

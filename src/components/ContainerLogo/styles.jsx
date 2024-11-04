@@ -1,6 +1,5 @@
 // src/components/ContainerLogo/styles.jsx
 import styled from "styled-components";
-import fundoLogo from '../../images/peixeFundo.jpg'
 
 export const ContainerLogoStyled = styled.div`
   display: flex;
@@ -9,8 +8,6 @@ export const ContainerLogoStyled = styled.div`
   padding: 19px;
   margin-top: 6px;
   background-color: rgb(255, 255, 255); 
-  //background-image: url(${fundoLogo});
-  //background-size: 40px;
 
   h4 {
     font-size: 16px;
@@ -28,11 +25,11 @@ export const ContainerLogoStyled = styled.div`
   }
 
   .logoSeu {
-    width: 57px;
+    width: 52px;
   }
 
   .logoAntonio {
-    width: 120px;
+    width: 110px;
   }
 
 `
