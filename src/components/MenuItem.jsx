@@ -14,7 +14,7 @@ const CardContainer = styled.div`
 `;
 
 const Title = styled.h3`
-  font-size: 15px;
+  font-size: 17px;
   line-height: 120%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
@@ -33,7 +33,7 @@ const Price = styled.span`
 `;
 
 const Description = styled.p`
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 140%;
