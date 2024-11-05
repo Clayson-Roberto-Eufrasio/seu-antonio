@@ -154,21 +154,21 @@ export const Appetizer = [
     value: "60,00",
     image_url: OstrasInNatura,
     state: "",
-    description: "6 Unid. de ostras, acompanha limão."
+    description: "12 Unid. de ostras, acompanha limão."
   },
   {
     title: "Ostras à Vinagrete",
     value: "62,00",
     image_url: OstraAVinagrete,
     state: "",
-    description: "6 Unid. de ostras, vinagrete da casa, acompanha limão."
+    description: "12 Unid. de ostras, vinagrete da casa, acompanha limão."
   },
   {
     title: "Ostras ao Bafo",
     value: "62,00",
     image_url: OstrasAoBafo,
     state: "",
-    description: "6 Unid. de ostras, cozidas ao bafo com raspas de limão."
+    description: "12 Unid. de ostras, cozidas ao bafo com raspas de limão."
   },
   {
     title: "Ceviche de Ostras",
