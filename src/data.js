@@ -84,28 +84,28 @@ export const Appetizer = [
     value: "56,00",
     image_url: BruschettaDePolvo,
     state: "",
-    description: "Torradas artesanais, creme azeda, vinagrete de polvo e redução de balsâmico."
+    description: "Torradas artesanais, creme azedo, vinagrete de polvo e redução de balsâmico."
   },
   {
     title: "Bruschetta Caprese",
     value: "41,00",
     image_url: BruschettaCaprese,
     state: "",
-    description: "Torrada artesanal, com tomate concassé mozzarella de búfala manjericão."
+    description: "Torrada artesanal, com tomate, mozzarella, mozzarella de búfala finalizada com pesto de manjericão."
   },
   {
     title: "Ceviche de Peixe Branco",
     value: "58,00",
     image_url: CevicheDePeixeBranco,
     state: "",
-    description: "Cubos de peixe branco marinado com leite de tigre,cebola roxa,pimenta dedo de moça, coentro, milho tostado e chips de banana."
+    description: "Cubos de peixe branco marinado com leite de tigre, cebola roxa, pimenta dedo de moça, coentro, milho tostado e chips de banana."
   },
   {
     title: "Ceviche de Salmão",
     value: "60,00",
     image_url: CevicheDeSalmao,
     state: "",
-    description: "Cubos de salmão, cebola roxa, leite de tigre da casa, pimenta dedo de moça, coentro fresco e torradinha."
+    description: "Cubos de salmão, cebola roxa, leite de tigre da casa, pimenta dedo de moça, coentro fresco, torradinha."
   },
   {
     title: "Tartar de Salmão",
@@ -116,56 +116,56 @@ export const Appetizer = [
   },
   {
     title: "Camarão Acebolado",
-    value: "70,00",
+    value: "89,00",
     image_url: CamaraoAcebolado,
     state: "",
-    description: "Camarões grelhados na manteiga com cebola e aipim."
+    description: "Camarões grelhados na manteiga com cebola."
   },
   {
     title: "Picadinho Seu Antônio",
-    value: "80,00",
+    value: "95,00",
     image_url: PicadinhoSeuAntonio,
     state: "",
     description: "Cubos de filé mignon acebolado acompanhado com batatas ao murro e farofa de alho."
   },
   {
     title: "Mini Hambúrguer de Carne",
-    value: "47,00",
+    value: "54,00",
     image_url: MiniHamburguerDeCarne,
     state: "",
-    description: "Blend de carne, pão artesanal,alface, tomate, bacon, molho rose e queijo cheddar."
+    description: "Blend de carne, pão artesanal, bacon, cebola caramelizada, molho da casa e queijo cheddar."
   },
   {
     title: "Salada Caesar",
     value: "40,00",
     image_url: SaladaCaesar,
     state: "",
-    description: "Mix de folhas nobres, frango, bacon, croutons, queijo parmesão e molho caesar."
+    description: "Mix de folhas nobres, frango, bacon, croutons, queijo parmesão, e molho caesar."
   },
   {
     title: "Ostras Gratinada",
-    value: "46,00",
+    value: "86,00",
     image_url: OstrasGratinada,
     state: "",
-    description: "6 Unid. de ostras gratinadas com molho branco e queijo parmesão."
+    description: "12 Unid. de ostras gratinadas com molho branco e queijo parmesão."
   },
   {
     title: "Ostras in Natura",
-    value: "34,00",
+    value: "60,00",
     image_url: OstrasInNatura,
     state: "",
     description: "6 Unid. de ostras, acompanha limão."
   },
   {
     title: "Ostras à Vinagrete",
-    value: "37,00",
+    value: "62,00",
     image_url: OstraAVinagrete,
     state: "",
     description: "6 Unid. de ostras, vinagrete da casa, acompanha limão."
   },
   {
     title: "Ostras ao Bafo",
-    value: "37,00",
+    value: "62,00",
     image_url: OstrasAoBafo,
     state: "",
     description: "6 Unid. de ostras, cozidas ao bafo com raspas de limão."
@@ -176,6 +176,41 @@ export const Appetizer = [
     image_url: "",
     state: "",
     description: "Ostras in natura, cebola roxa, pimenta dedo de moça, molho de ostras e coentro fresco."
+  },
+  {
+    title: "Camarão Alho e Óleo",
+    value: "89,00",
+    image_url: "",
+    state: "",
+    description: "Camarões grelhados ao alho e óleo."
+  },
+  {
+    title: "Camarão ao Bafo",
+    value: "89,00",
+    image_url: "",
+    state: "",
+    description: "Camarões ao bafo finalizado com azeite de ervas."
+  },
+  {
+    title: "Ostras a Milanesa",
+    value: "69,00",
+    image_url: "",
+    state: "",
+    description: "12 Unid."
+  },
+  {
+    title: "Ostras ao Alho e Óleo",
+    value: "62,00",
+    image_url: "",
+    state: "",
+    description: "12 Unid."
+  },
+  {
+    title: "Cozinha das Ostras",
+    value: "260,00",
+    image_url: "",
+    state: "",
+    description: "Ostras in natura, ao bafo, gratinada, alho e óleo, milanesa, vinagrete 6 unidades de cada."
   },
 ]
 
