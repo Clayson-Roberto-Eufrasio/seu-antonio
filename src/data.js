@@ -529,6 +529,13 @@ export const Desserts = [
     description: "Com sorvete de creme."
   },
   {
+    title: "Petit Gateau de Chocolate",
+    value: "39,00",
+    image_url: PetitGateau,
+    state: "",
+    description: "Com sorvete de creme."
+  },
+  {
     title: "Pudim com Doce de Leite",
     value: "30,00",
     image_url: Pudim,
@@ -541,13 +548,6 @@ export const Desserts = [
     image_url: Cocada,
     state: "",
     description: "Sorvete de baunilha."
-  },
-  {
-    title: "Petit Gateau de Doce de Leite",
-    value: "39,00",
-    image_url: "",
-    state: "",
-    description: "Com sorvete de creme."
   },
   {
     title: "Paleta",
