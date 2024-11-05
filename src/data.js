@@ -154,21 +154,21 @@ export const Appetizer = [
     value: "60,00",
     image_url: OstrasInNatura,
     state: "",
-    description: "12 Unid. de ostras, acompanha limão."
+    description: "12 Unid. de ostras, acompanha limão, consultar disponibilidade."
   },
   {
     title: "Ostras à Vinagrete",
     value: "62,00",
     image_url: OstraAVinagrete,
     state: "",
-    description: "12 Unid. de ostras, vinagrete da casa, acompanha limão."
+    description: "12 Unid. de ostras, vinagrete da casa, acompanha limão, consultar disponibilidade."
   },
   {
     title: "Ostras ao Bafo",
     value: "62,00",
     image_url: OstrasAoBafo,
     state: "",
-    description: "12 Unid. de ostras, cozidas ao bafo com raspas de limão."
+    description: "12 Unid. de ostras, cozidas ao bafo com raspas de limão, consultar disponibilidade."
   },
   {
     title: "Ceviche de Ostras",
@@ -196,14 +196,14 @@ export const Appetizer = [
     value: "69,00",
     image_url: "",
     state: "",
-    description: "12 Unid."
+    description: "12 Unid. Consultar disponibilidade."
   },
   {
     title: "Ostras ao Alho e Óleo",
     value: "62,00",
     image_url: "",
     state: "",
-    description: "12 Unid."
+    description: "12 Unid. Consultar disponibilidade."
   },
   {
     title: "Cozinha das Ostras",
@@ -223,7 +223,7 @@ export const Appetizers = [
     description: "Acompanha molho da casa."
   },  
   {
-    title: "Batata Canoa",
+    title: "Batata Rústica",
     value: "28,00",
     image_url: BatataCanoa,
     state: "",
@@ -259,14 +259,14 @@ export const Appetizers = [
   },   
   {
     title: "Mini Pastel de Brie",
-    value: "38,00",
+    value: "42,00",
     image_url: MiniPastelDeBrie,
     state: "",
     description: "Acompanha geleia de pimenta."
   },  
   {
     title: "Mini Pastel de Camarão",
-    value: "42,00",
+    value: "46,00",
     image_url: MiniPastelDeCamarao,
     state: "",
     description: "Acompanha molho de pimenta."
@@ -280,14 +280,14 @@ export const Appetizers = [
   },
   {
     title: "Bolinho de Costela",
-    value: "37,00",
+    value: "58,00",
     image_url: "",
     state: "",
     description: "Acompanha molho verde."
   },  
   {
     title: "Bolinho de Camarão",
-    value: "37,00",
+    value: "58,00",
     image_url: "",
     state: "",
     description: "Acompanha molho de pimenta."
@@ -300,60 +300,60 @@ export const Mains = [
     value: "119,00",
     image_url: BacalhauConfitado,
     state: "",
-    description: "Bacalhau e legumes confitados no azeite extra virgem com purê de batata."
+    description: "Bacalhau e legumes confitados em azeite extra virgem com purê de batata."
   },
   {
     title: "Polvo Glaceado",
-    value: "82,00",
+    value: "92,00",
     image_url: PolvoGlaceado,
     state: "",
     description: "Polvo glaceado em redução de limão, meio e shoyu, acompanho de musseline de batata."
   },
   {
     title: "Salmão à Valenciana",
-    value: "89,00",
+    value: "94,00",
     image_url: SalmaoAValenciana,
     state: "",
     description: "Salmão grelhado com molho valenciana com camarão, purê de batata laranja, lula, tomates cerejas e legumes grelhados."
   },
   {
     title: "Peixe na Crosta de Gorgonzola",
-    value: "79,00",
+    value: "90,00",
     image_url: PeixeNaCrosta,
     state: "",
     description: "Acompanhado com risoto de alho poró e cogumelos confitados."
   },
   {
     title: "Camarão Flambado ao Rum",
-    value: "83,00",
+    value: "91,00",
     image_url: CamaraoFlambado,
     state: "",
     description: "Camarão flambado ao rum acompanha risoto de limão siciliano."
   },
   {
     title: "Camarão Cremoso",
-    value: "82,00",
+    value: "96,00",
     image_url: CamaraoCremoso,
     state: "",
     description: "Camarão ao creme de leite e leite de coco, gratinado com queijo mussarela e parmesão, banana frita, acompanhado com arroz branco."
   },
   {
     title: "Tornedor de Mignon",
-    value: "83,00",
+    value: "92,00",
     image_url: TornedorDeMignon,
     state: "",
     description: "Tornedor de mignon em crosta de ervas,  acompanha risoto de queijo brie e damasco."
   },
   {
     title: "Escalope de Mignon ao Molho Mostarda",
-    value: "80,00",
+    value: "90,00",
     image_url: EscalopeDeMignon,
     state: "",
-    description: "Escalopes de mignon ao molho mostarda, com aligot de batata."
+    description: "Escalopes de mignon ao molho mostarda, com aligot de batata e farofa de alho."
   },
   {
     title: "Gnocchi de Batata com Ragu de Mignon",
-    value: "78,00",
+    value: "89,00",
     image_url: GnocchiDeBatata,
     state: "",
     description: "Ragu de filé mignon com manjericão, pomodoro farofa de pangrattato e queijo parmesão."
@@ -367,10 +367,59 @@ export const Mains = [
   },
     {
     title: "Paillard de Filé Mignon",
-    value: "82,00",
+    value: "89,00",
     image_url: "",
     state: "",
     description: "Filé mignon batido ao molho de nata e mix de cogumelos com fettuccine."
+  },
+  {
+    title: "Polvo Grelhado",
+    value: "92,00",
+    image_url: "",
+    state: "",
+    description: "Polvo grelhado, acompanha abóbora cabotiá defumado com ervas, com molho thai."
+  },
+  {
+    title: "Salmão ao Molho de Maracujá",
+    value: "92,00",
+    image_url: "",
+    state: "",
+    description: "Salmão grelhado ao molho de maracujá, purê de batata laranja, lula e tomates cerejas e legumes grelhados."
+  },
+  {
+    title: "Peixe na Crosta de Castanha",
+    value: "92,00",
+    image_url: "",
+    state: "",
+    description: "Acompanhado com purê de banana doce, com brócolis grelhados."
+  },
+  {
+    title: "Barba Negra",
+    value: "92,00",
+    image_url: "",
+    state: "",
+    description: "Linguado grelhado, acompanha massa nero ao molho de ervas frescas."
+  },
+  {
+    title: "Entrecot Seu Antônio",
+    value: "94,00",
+    image_url: "",
+    state: "",
+    description: "Acompanha aligot, cebola brulée, tomate confitado e farofa de alho."
+  },
+  {
+    title: "Conchiglioni ao Frutos do Mar",
+    value: "92,00",
+    image_url: "",
+    state: "",
+    description: "Polvo, camarão, lula, mexilhões ao molho de pomodoro."
+  },
+  {
+    title: "Espaguete ao Molho Fonduta",
+    value: "96,00",
+    image_url: "",
+    state: "",
+    description: "Camarões ao molho fonduta. ."
   },
 ]
 
@@ -384,45 +433,66 @@ export const ToShare = [
   },
   {
     title: "Moqueca Mista",
-    value: "189,00",
+    value: "269,00",
     image_url: MoquecaMista,
     state: "",
     description: "Peixe, Camarões, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz de coco e aipim."
   },
   {
     title: "Paella de Frutos do Mar",
-    value: "194,00",
+    value: "249,00",
     image_url: PaellaDeFrutosDoMar,
     state: "",
     description: "Camarões, lula, polvo, peixes, arroz e legumes."
   },
   {
     title: "Parmegiana de Mignon",
-    value: "180,00",
+    value: "218,00",
     image_url: ParmegianaDeMignon,
     state: "",
     description: "Acompanha arroz branco e batata frita."
   },
   {
     title: "Poseidon Rei dos Mares",
-    value: "399,00",
+    value: "439,00",
     image_url: PoseidonReiDosMares,
     state: "",
     description: "Camarão grelhado, polvo, salmão, ostras gratinadas, ostras in natura, camarões empanados, legumes e arroz."
   },
   {
     title: "Camarão 4 Queijos",
-    value: "194,00",
+    value: "229,00",
     image_url: "",
     state: "",
-    description: "Camarão ao molho 4 queijos, acompanha arroz ao shoyu com amêndoas e batatas ao murro."
+    description: "Camarão ao molho 4 queijos, acompanha arroz ao shoyu com amêndoas."
   },  
   {
-    title: "Moqueca de Peixe",
-    value: "180,00",
+    title: "Anchova Inteira a La Belle Meunière Seu Antônio",
+    value: "239,00",
     image_url: "",
     state: "",
-    description: "Peixe, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz e aipim na manteiga."
+    description: "Anchova guarnecida de arroz com brócolis, mini batatas sauté e legumes salteados."
+  },
+  {
+    title: "Anchova Grelhada",
+    value: "228,00",
+    image_url: "",
+    state: "",
+    description: "Anchova guarnecida com alcaparras em azeite aromático, batata sauté e arroz."
+  },
+  {
+    title: "Filé de Linguado a La Belle Meunière Seu Antônio",
+    value: "249,00",
+    image_url: "",
+    state: "",
+    description: "Linguado guarnecido de arroz com brócolis, mini batatas sauté e legumes salteados."
+  },
+  {
+    title: "Filé de Linguado Grelhado",
+    value: "238,00",
+    image_url: "",
+    state: "",
+    description: "Linguado guarnecido com alcaparras em azeite aromático, batata sauté e arroz."
   },
 ]
 
@@ -460,7 +530,7 @@ export const Desserts = [
   },
   {
     title: "Pudim com Doce de Leite",
-    value: "39,00",
+    value: "30,00",
     image_url: Pudim,
     state: "",
     description: ""
@@ -471,6 +541,20 @@ export const Desserts = [
     image_url: Cocada,
     state: "",
     description: "Sorvete de baunilha."
+  },
+  {
+    title: "Petit Gateau de Doce de Leite",
+    value: "39,00",
+    image_url: "",
+    state: "",
+    description: "Com sorvete de creme."
+  },
+  {
+    title: "Paleta",
+    value: "20,00",
+    image_url: "",
+    state: "",
+    description: "Consultar sabores."
   },
   {
     title: "Café",
