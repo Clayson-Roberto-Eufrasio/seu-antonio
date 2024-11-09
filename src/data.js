@@ -32,12 +32,10 @@ import PeixeNaCrosta from "../src/images/Principais/PeixeNaCrostraLogo.jpg"
 import CamaraoFlambado from "../src/images/Principais/CamaraoFlambladoLogo.jpg"
 import CamaraoCremoso from "../src/images/Principais/CamaraoCremosoLogo.jpg"
 import TornedorDeMignon from "../src/images/Principais/TornedorLogo.jpg"
-import EscalopeDeMignon from "../src/images/Principais/EscalopeLogo.jpg"
 import GnocchiDeBatata from "../src/images/Principais/NhoqueLogo.jpg"
 import RisottoDeCogumelos from "../src/images/Principais/RisotoDeCoumeloLogo.jpg"
 
 // Imagens de Para Compartilhar
-import PeixeMeuniereSeuAntonio from "../src/images/ParaCompartilhar/MuniereLogo.jpg"
 import MoquecaMista from "../src/images/ParaCompartilhar/MoquecaMistaLogo.jpg"
 import PaellaDeFrutosDoMar from "../src/images/ParaCompartilhar/PaellaLogo.jpg"
 import ParmegianaDeMignon from "../src/images/ParaCompartilhar/ParmegianaLogo.jpg"
@@ -169,13 +167,6 @@ export const Appetizer = [
     image_url: OstrasAoBafo,
     state: "",
     description: "12 Unid. de ostras, cozidas ao bafo com raspas de limão, consultar disponibilidade."
-  },
-  {
-    title: "Ceviche de Ostras",
-    value: "57,00",
-    image_url: "",
-    state: "",
-    description: "Ostras in natura, cebola roxa, pimenta dedo de moça, molho de ostras e coentro fresco."
   },
   {
     title: "Camarão Alho e Óleo",
@@ -347,9 +338,9 @@ export const Mains = [
   {
     title: "Escalope de Mignon ao Molho Mostarda",
     value: "90,00",
-    image_url: EscalopeDeMignon,
+    image_url: "",
     state: "",
-    description: "Escalopes de mignon ao molho mostarda, com aligot de batata e farofa de alho."
+    description: "Escalopes de mignon ao molho mostarda, com arroz e farofa de alho."
   },
   {
     title: "Gnocchi de Batata com Ragu de Mignon",
@@ -425,13 +416,6 @@ export const Mains = [
 
 export const ToShare = [
   {
-    title: "Peixe Meuniere Seu Antônio",
-    value: "198,00",
-    image_url: PeixeMeuniereSeuAntonio,
-    state: "",
-    description: "Peixe inteiro ao molho Belle Meunière acompanhado de arroz com brócolis, mini batatas e legumes salteados."
-  },
-  {
     title: "Moqueca Mista",
     value: "269,00",
     image_url: MoquecaMista,
@@ -475,7 +459,7 @@ export const ToShare = [
   },
   {
     title: "Anchova Grelhada",
-    value: "228,00",
+    value: "189,00",
     image_url: "",
     state: "",
     description: "Anchova guarnecida com alcaparras em azeite aromático, batata sauté e arroz."
@@ -489,7 +473,7 @@ export const ToShare = [
   },
   {
     title: "Filé de Linguado Grelhado",
-    value: "238,00",
+    value: "198,00",
     image_url: "",
     state: "",
     description: "Linguado guarnecido com alcaparras em azeite aromático, batata sauté e arroz."
@@ -1232,7 +1216,7 @@ export const WineTinto = [
 export const WineWhite = [
   {
     title: "Becas Reserva Sauvignon Blanc",
-    value: "150,00",
+    value: "154,00",
     image_url: "",
     state: "CL",
     description: "Uva: Sauvignon Blanc, notas de frutas tropicais e cítricas, especialmente de maracujá perfeitamente balanceado com pêssego, em boca ressalta os aromas do olfato e traz uma acidez refrescante, harmoniza com mariscos, salada poke e vegetais grelhados."
@@ -1305,14 +1289,14 @@ export const WineRose = [
   },
   {
     title: "Villa Francioni Rosé 750ml",
-    value: "220,00",
+    value: "230,00",
     image_url: "",
     state: "BR",
     description: "Uva: Cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
   },
   {
     title: "Villa Francioni Rosé 1,750ml",
-    value: "398,00",
+    value: "420,00",
     image_url: "",
     state: "BR",
     description: "Uva: Cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
