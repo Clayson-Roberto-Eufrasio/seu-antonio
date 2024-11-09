@@ -336,13 +336,6 @@ export const Mains = [
     description: "Tornedor de mignon em crosta de ervas,  acompanha risoto de queijo brie e damasco."
   },
   {
-    title: "Escalope de Mignon ao Molho Mostarda",
-    value: "90,00",
-    image_url: "",
-    state: "",
-    description: "Escalopes de mignon ao molho mostarda, com arroz e farofa de alho."
-  },
-  {
     title: "Gnocchi de Batata com Ragu de Mignon",
     value: "89,00",
     image_url: GnocchiDeBatata,
@@ -411,6 +404,13 @@ export const Mains = [
     image_url: "",
     state: "",
     description: "Camarões ao molho fonduta. ."
+  },
+  {
+    title: "Escalope de Mignon ao Molho Mostarda",
+    value: "90,00",
+    image_url: "",
+    state: "",
+    description: "Escalopes de mignon ao molho mostarda, com arroz e farofa de alho."
   },
 ]
 
