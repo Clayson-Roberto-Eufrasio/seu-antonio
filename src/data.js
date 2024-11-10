@@ -368,7 +368,7 @@ export const Mains = [
     value: "92,00",
     image_url: "",
     state: "",
-    description: "Salmão grelhado ao molho de maracujá, purê de batata laranja, lula e tomates cerejas e legumes grelhados."
+    description: "Salmão grelhado ao molho de maracujá, purê de batata laranja e legumes grelhados."
   },
   {
     title: "Peixe na Crosta de Castanha",
