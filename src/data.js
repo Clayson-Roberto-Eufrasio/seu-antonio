@@ -1319,6 +1319,13 @@ export const Espumant = [
     description: "Uva: Chardonnay, pinot noir, macio, refrescante, acidez refrescante, harmoniza com frutos do mar, camarão, salmão, risotto de tomate seco e sushi"
   },
   {
+    title: "Ponto Nero Moscatel",
+    value: "159,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: Moscato, intenso aroma frutado, notas de flores brancas como jasmim e flor de laranjeira e delicada nuance de erva doce, em boca leve e frutado, sua elegante acidez permite um bom equilíbrio com o teor mais elevado de açúcar, harmoniza com sorvete, salada de frutas, pavê de tangerina e mousse de limão "
+  },
+  {
     title: "Chandon Brut",
     value: "230,00",
     image_url: "",
