@@ -337,7 +337,7 @@ export const Mains = [
   },
   {
     title: "Gnocchi de Batata com Ragu de Mignon",
-    value: "89,00",
+    value: "92,00",
     image_url: GnocchiDeBatata,
     state: "",
     description: "Ragu de filé mignon com manjericão, pomodoro farofa de pangrattato e queijo parmesão."
