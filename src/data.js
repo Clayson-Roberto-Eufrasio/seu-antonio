@@ -17,7 +17,6 @@ import OstrasAoBafo from "../src/images/Aperitivos/OstraAoBafoLogo.jpg"
 import BatataFrita from "../src/images/Entradas/BatataFritaLogo.jpg"
 import BatataCanoa from "../src/images/Entradas/BatataCanoaLogo.jpg"
 import IscaDePeixeEmpanada from "../src/images/Entradas/IscaDePeixeLogo.jpg"
-import AipimFrito from "../src/images/Entradas/AipimLogo.jpg"
 import FrangoCrocante from "../src/images/Entradas/FrangoEmpanadoLogo.jpg"
 import DadinhoDeTapioca from "../src/images/Entradas/DadinhoDeTapiocaLogo.jpg"
 import MiniPastelDeBrie from "../src/images/Entradas/PastelBrieLogo.jpg"
@@ -220,13 +219,6 @@ export const Appetizers = [
     state: "",
     description: "Acompanha molho verde."
   },  
-  {
-    title: "Aipim Frito",
-    value: "28,00",
-    image_url: AipimFrito,
-    state: "",
-    description: "Acompanha molho rosé."
-  },
   {
     title: "Isca de Peixe Empanada",
     value: "54,00",
