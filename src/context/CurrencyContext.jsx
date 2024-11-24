@@ -1,13 +1,22 @@
-import React, {  createContext, useContext, useState,  } from "react"; 
+import React, {  createContext, useContext, useRef, useState,  } from "react"; 
 
 const CurrencyContext = createContext();
 
 export const CurrencyProvider = ({ children }) => {
 
-    const [test, setTest] = useState("oi")
+    const [isFixed, setIsFixed] = useState(false);
+    const headerRef = useRef(null);
+    const placeholderRef = useRef(null);
+  
+    const handleScroll = () => {
+      if (headerRef.current && placeholderRef.current) {
+        const headerTop = placeholderRef.current.getBoundingClientRect().top;
+        setIsFixed(headerTop <= 0);
+      }
+    };
     
     return (
-        <CurrencyContext.Provider value={{ test }}>
+        <CurrencyContext.Provider value={{ isFixed, headerRef, placeholderRef, handleScroll }}>
             {children}
         </CurrencyContext.Provider>
     )

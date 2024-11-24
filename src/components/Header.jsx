@@ -1,10 +1,11 @@
 // src/components/Header.jsx
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import HeaderBackgroundContainer from './HeaderBackgroundContainer';
 import ContainerLogo from './ContainerLogo';
 import ContainerIcons from './ContainerIcons';
 import HamburgerMenu from './HamburgerMenu';
+import { useCurrency } from '../context/CurrencyContext';
 
 const HeaderContainer = styled.header`
   background-color: transparent;
@@ -42,18 +43,9 @@ const HeaderContainer = styled.header`
 `;
 
 const Header = ({ category, setSelectedCategory }) => {
-  const [isFixed, setIsFixed] = useState(false);
-  const headerRef = useRef(null);
-  const placeholderRef = useRef(null);
-
-  const handleScroll = () => {
-    if (headerRef.current && placeholderRef.current) {
-      const headerTop = placeholderRef.current.getBoundingClientRect().top;
-      console.log(headerTop <= 0)
-      setIsFixed(headerTop <= 0);
-    }
-  };
   
+  const { isFixed, headerRef, placeholderRef, handleScroll } = useCurrency()
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => {
