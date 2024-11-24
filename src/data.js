@@ -242,21 +242,21 @@ export const Appetizers = [
   },   
   {
     title: "Mini Pastel de Brie",
-    value: "52,00",
+    value: "42,00",
     image_url: MiniPastelDeBrie,
     state: "",
     description: "Acompanha geleia de pimenta."
   },  
   {
     title: "Mini Pastel de Camarão",
-    value: "56,00",
+    value: "46,00",
     image_url: MiniPastelDeCamarao,
     state: "",
     description: "Acompanha molho de pimenta."
   },  
   {
     title: "Camarão no Varal",
-    value: "89,00",
+    value: "96,00",
     image_url: CamaraoNoVaral,
     state: "",
     description: "Camarão empanado no panko acompanhado com molho de pimenta e molho verde."
@@ -329,7 +329,7 @@ export const Mains = [
   },
   {
     title: "Gnocchi de Batata com Ragu de Mignon",
-    value: "92,00",
+    value: "89,00",
     image_url: GnocchiDeBatata,
     state: "",
     description: "Ragu de filé mignon com manjericão, pomodoro farofa de pangrattato e queijo parmesão."
@@ -451,7 +451,7 @@ export const ToShare = [
   },
   {
     title: "Anchova Grelhada",
-    value: "189,00",
+    value: "228,00",
     image_url: "",
     state: "",
     description: "Anchova guarnecida com alcaparras em azeite aromático, batata sauté e arroz."
@@ -465,7 +465,7 @@ export const ToShare = [
   },
   {
     title: "Filé de Linguado Grelhado",
-    value: "198,00",
+    value: "238,00",
     image_url: "",
     state: "",
     description: "Linguado guarnecido com alcaparras em azeite aromático, batata sauté e arroz."
