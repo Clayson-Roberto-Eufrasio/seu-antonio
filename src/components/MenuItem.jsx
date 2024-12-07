@@ -48,7 +48,7 @@ const MenuItem = ({ item }) => {
     <CardContainer>
       <Title>{item.title}</Title>
       {item.image_url ? (
-        <img src={item.image_url} alt={item.title} style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
+        <img loading="lazy" src={item.image_url} alt={item.title} style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
       ) : (
         <></>
       )}
