@@ -451,7 +451,7 @@ export const ToShare = [
   },
   {
     title: "Anchova Grelhada",
-    value: "228,00",
+    value: "189,00",
     image_url: "",
     state: "",
     description: "Anchova guarnecida com alcaparras em azeite aromático, batata sauté e arroz."
@@ -1215,13 +1215,6 @@ export const WineWhite = [
     description: "Uva: Sauvignon Blanc, notas de frutas tropicais e cítricas, especialmente de maracujá perfeitamente balanceado com pêssego, em boca ressalta os aromas do olfato e traz uma acidez refrescante, harmoniza com mariscos, salada poke e vegetais grelhados."
   },
   {
-    title: "Callia Chardonnay",
-    value: "160,00",
-    image_url: "",
-    state: "AR",
-    description: "Uva: Chardonnay, apresenta aromas complexos, intensamente frutados, com notas de pêssegos e mel, em boca, uma experiência plena e ampla revela-se, com distinção de sabores frutados de abacaxi e pera, harmoniza com peixes assados ou grelhados, massas com molho branco ou recheadas com legumes e carnes suínas grelhadas."
-  },
-  {
     title: "Becas Delle Venezie DOC Pinot Grigio",
     value: "169,00",
     image_url: "",
@@ -1229,6 +1222,13 @@ export const WineWhite = [
     description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar."
   },
   */
+  {
+    title: "Callia Chardonnay",
+    value: "160,00",
+    image_url: "",
+    state: "AR",
+    description: "Uva: Chardonnay, apresenta aromas complexos, intensamente frutados, com notas de pêssegos e mel, em boca, uma experiência plena e ampla revela-se, com distinção de sabores frutados de abacaxi e pera, harmoniza com peixes assados ou grelhados, massas com molho branco ou recheadas com legumes e carnes suínas grelhadas."
+  },
   {
     title: "Astica Chardonnay & Chenin",
     value: "154,00",
@@ -1260,19 +1260,21 @@ export const WineWhite = [
 ]
 
 export const WineRose = [
-  {
-    title: "Astica Rosé",
-    value: "154,00",
-    image_url: "",
-    state: "AR",
-    description: "Uva: Malbec, aromas de frutas vermelhas e negras, em boca leve, frutado e fresco, harmoniza com aperitivos, pratos picantes, carnes brancas e peixes."
-  },
+  /*
   {
     title: "Conclave Reserva Rosé",
     value: "166,00",
     image_url: "",
     state: "AR",
     description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
+  },
+  */
+  {
+    title: "Astica Rosé",
+    value: "154,00",
+    image_url: "",
+    state: "AR",
+    description: "Uva: Malbec, aromas de frutas vermelhas e negras, em boca leve, frutado e fresco, harmoniza com aperitivos, pratos picantes, carnes brancas e peixes."
   },
   {
     title: "Becas Mediterranee Grenache Rosé",

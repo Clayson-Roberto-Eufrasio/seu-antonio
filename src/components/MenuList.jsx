@@ -12,18 +12,14 @@ const ListContainer = styled.div`
   margin: auto;
 `;
 
-const ItemWrapper = styled.div`
-  /* Removidos os estilos de animação */
-`;
-
 const MenuList = ({ items }) => {
   return (
     <CardContainer>
       <ListContainer className="section">
         {items.map((item, index) => (
-          <ItemWrapper key={index}>
+          <div key={index}>
             <MenuItem item={item} />
-          </ItemWrapper>
+          </div>
         ))}
       </ListContainer>
     </CardContainer>
