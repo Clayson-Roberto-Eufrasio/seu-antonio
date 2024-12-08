@@ -465,7 +465,7 @@ export const ToShare = [
   },
   {
     title: "Filé de Linguado Grelhado",
-    value: "238,00",
+    value: "198,00",
     image_url: "",
     state: "",
     description: "Linguado guarnecido com alcaparras em azeite aromático, batata sauté e arroz."
