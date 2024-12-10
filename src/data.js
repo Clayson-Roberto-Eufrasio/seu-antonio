@@ -1,79 +1,78 @@
 // Imagens de Aperitivos
-import BruschettaDePolvo from "../src/images/Aperitivos/BruchettaPolvoLogo.jpg"
-import BruschettaCaprese from "../src/images/Aperitivos/BruchettaCapreseLogo.jpg"
-import CevicheDePeixeBranco from "../src/images/Aperitivos/CevichePeixeLogo.jpg"
-import CevicheDeSalmao from "../src/images/Aperitivos/CevicheDeSalmaoLogo.jpg"
-import TartarDeSalmao from "../src/images/Aperitivos/TartareDeSalmaoLogo.jpg"
-import CamaraoAcebolado from "../src/images/Aperitivos/CamaraoAceboladoLogo.jpg"
-import PicadinhoSeuAntonio from "../src/images/Aperitivos/PicadinhoLogo.jpg"
-import MiniHamburguerDeCarne from "../src/images/Aperitivos/MiniHamburguerLogo.jpg"
-import SaladaCaesar from "../src/images/Aperitivos/SaladaLogo.jpg"
-import OstrasGratinada from "../src/images/Aperitivos/OstraGratinadaLogo.jpg"
-import OstrasInNatura from "../src/images/Aperitivos/OstraInNaturaLogo.jpg"
-import OstraAVinagrete from "../src/images/Aperitivos/OstraAVinagreteLogo.jpg"
-import OstrasAoBafo from "../src/images/Aperitivos/OstraAoBafoLogo.jpg"
+import BruschettaDePolvo from "../src/images/Aperitivos/BruchettaPolvoLogo.webp"
+import BruschettaCaprese from "../src/images/Aperitivos/BruchettaCapreseLogo.webp"
+import CevicheDePeixeBranco from "../src/images/Aperitivos/CevichePeixeLogo.webp"
+import CevicheDeSalmao from "../src/images/Aperitivos/CevicheDeSalmaoLogo.webp"
+import TartarDeSalmao from "../src/images/Aperitivos/TartareDeSalmaoLogo.webp"
+import CamaraoAcebolado from "../src/images/Aperitivos/CamaraoAceboladoLogo.webp"
+import PicadinhoSeuAntonio from "../src/images/Aperitivos/PicadinhoLogo.webp"
+import MiniHamburguerDeCarne from "../src/images/Aperitivos/MiniHamburguerLogo.webp"
+import SaladaCaesar from "../src/images/Aperitivos/SaladaLogo.webp"
+import OstrasGratinada from "../src/images/Aperitivos/OstraGratinadaLogo.webp"
+import OstrasInNatura from "../src/images/Aperitivos/OstraInNaturaLogo.webp"
+import OstraAVinagrete from "../src/images/Aperitivos/OstraAVinagreteLogo.webp"
+import OstrasAoBafo from "../src/images/Aperitivos/OstraAoBafoLogo.webp"
 
 // Imagens de Entradas
-import BatataFrita from "../src/images/Entradas/BatataFritaLogo.jpg"
-import BatataCanoa from "../src/images/Entradas/BatataCanoaLogo.jpg"
-import IscaDePeixeEmpanada from "../src/images/Entradas/IscaDePeixeLogo.jpg"
-import AipimFrito from "../src/images/Entradas/AipimLogo.jpg"
-import FrangoCrocante from "../src/images/Entradas/FrangoEmpanadoLogo.jpg"
-import DadinhoDeTapioca from "../src/images/Entradas/DadinhoDeTapiocaLogo.jpg"
-import MiniPastelDeBrie from "../src/images/Entradas/PastelBrieLogo.jpg"
-import MiniPastelDeCamarao from "../src/images/Entradas/PastelCamaraoLogo.jpg"
-import CamaraoNoVaral from "../src/images/Entradas/CamaraoNoVaralLogo.jpg"
+import BatataFrita from "../src/images/Entradas/BatataFritaLogo.webp"
+import BatataCanoa from "../src/images/Entradas/BatataCanoaLogo.webp"
+import IscaDePeixeEmpanada from "../src/images/Entradas/IscaDePeixeLogo.webp"
+import FrangoCrocante from "../src/images/Entradas/FrangoEmpanadoLogo.webp"
+import DadinhoDeTapioca from "../src/images/Entradas/DadinhoDeTapiocaLogo.webp"
+import MiniPastelDeBrie from "../src/images/Entradas/PastelBrieLogo.webp"
+import MiniPastelDeCamarao from "../src/images/Entradas/PastelCamaraoLogo.webp"
+import CamaraoNoVaral from "../src/images/Entradas/CamaraoNoVaralLogo.webp"
 
 // Imagens de Principais
-import BacalhauConfitado from "../src/images/Principais/BacalhauLogo.jpg"
-import PolvoGlaceado from "../src/images/Principais/PolvoGlaceadoLogo.jpg"
-import SalmaoAValenciana from "../src/images/Principais/SalmaoAValencianaLogo.jpg"
-import PeixeNaCrosta from "../src/images/Principais/PeixeNaCrostraLogo.jpg"
-import CamaraoFlambado from "../src/images/Principais/CamaraoFlambladoLogo.jpg"
-import CamaraoCremoso from "../src/images/Principais/CamaraoCremosoLogo.jpg"
-import TornedorDeMignon from "../src/images/Principais/TornedorLogo.jpg"
-import GnocchiDeBatata from "../src/images/Principais/NhoqueLogo.jpg"
-import RisottoDeCogumelos from "../src/images/Principais/RisotoDeCoumeloLogo.jpg"
+import BacalhauConfitado from "../src/images/Principais/BacalhauLogo.webp"
+import PolvoGlaceado from "../src/images/Principais/PolvoGlaceadoLogo.webp"
+import SalmaoAValenciana from "../src/images/Principais/SalmaoAValencianaLogo.webp"
+import PeixeNaCrosta from "../src/images/Principais/PeixeNaCrostraLogo.webp"
+import CamaraoFlambado from "../src/images/Principais/CamaraoFlambladoLogo.webp"
+import CamaraoCremoso from "../src/images/Principais/CamaraoCremosoLogo.webp"
+import TornedorDeMignon from "../src/images/Principais/TornedorLogo.webp"
+import GnocchiDeBatata from "../src/images/Principais/NhoqueLogo.webp"
+import RisottoDeCogumelos from "../src/images/Principais/RisotoDeCoumeloLogo.webp"
 
 // Imagens de Para Compartilhar
-import MoquecaMista from "../src/images/ParaCompartilhar/MoquecaMistaLogo.jpg"
-import PaellaDeFrutosDoMar from "../src/images/ParaCompartilhar/PaellaLogo.jpg"
-import ParmegianaDeMignon from "../src/images/ParaCompartilhar/ParmegianaLogo.jpg"
-import PoseidonReiDosMares from "../src/images/ParaCompartilhar/PseidonLogo.jpg"
+import MoquecaMista from "../src/images/ParaCompartilhar/MoquecaMistaLogo.webp"
+import PaellaDeFrutosDoMar from "../src/images/ParaCompartilhar/PaellaLogo.webp"
+import ParmegianaDeMignon from "../src/images/ParaCompartilhar/ParmegianaLogo.webp"
+import PoseidonReiDosMares from "../src/images/ParaCompartilhar/PseidonLogo.webp"
 
 // Imagens Drinks
-import SodaFrutasVermelhas from "../src/images/DrnksSemAlcool/SodaFrutasVermelhasLogo.jpg"
-import Melancita from "../src/images/DrinksAlcolicos/MelancitaLogo.jpg"
-import RedBullComVodka from "../src/images/DrinksAlcolicos/VodgaComEnegeticoLogo.jpg"
-import CaipLimao from "../src/images/DrinksAlcolicos/CaipLimaoLogo.jpg"
-import CaipMorango from "../src/images/DrinksAlcolicos/CaipMorangoLogo.jpg"
-import CaiAbacaxi from "../src/images/DrinksAlcolicos/CaipAbacaxiLogo.jpg"
-import Cosmopolitan from "../src/images/DrinksAlcolicos/CosmopolitanLogo.jpg"
-import MoscowMule from "../src/images/DrinksAlcolicos/MoscowLogo.jpg"
-import CloverClub from "../src/images/DrinksAlcolicos/CloverClobLogo.jpg"
-import Carajillo from "../src/images/DrinksAlcolicos/CarajilloLogo.jpg"
-import Negroni from "../src/images/DrinksAlcolicos/NegroniLogo.jpg"
-import DryMartini from "../src/images/DrinksAlcolicos/DryMartinoiLogo.jpg"
-import Margarita from "../src/images/DrinksAlcolicos/MargaritaLogo.jpg"
-import AperolSpritz from "../src/images/DrinksAlcolicos/AperolLogo.jpg"
-import HorsesNeck from "../src/images/DrinksAlcolicos/HorseNeck.jpg"
-import GinTonica from "../src/images/DrinksAlcolicos/GinTonicaLogo.jpg"
-import TropicalGin from "../src/images/DrinksAlcolicos/GinTropicalLogo.jpg"
-import Antonio43 from "../src/images/DrinksAlcolicos/Antonio43Logo.jpg"
-import Brambre from "../src/images/DrinksAlcolicos/BrambreLogo.jpg"
-import CantoDaSereia from "../src/images/DrinksAlcolicos/CantoSereiLogo.jpg"
-import IslandColler from "../src/images/DrinksAlcolicos/IslandColler.jpg"
-import MagicPosion from "../src/images/DrinksAlcolicos/MagicPosionLogo.jpg"
-import Poseidon from "../src/images/DrinksAlcolicos/PoseidonLogo.jpg"
-import Tridente from "../src/images/DrinksAlcolicos/TridendeLogo.jpg"
-import Tribuzana from "../src/images/DrinksAlcolicos/TribuzanaLogo.jpg"
-import OldFashion from "../src/images/DrinksAlcolicos/Bulewardie.jpg"
+import SodaFrutasVermelhas from "../src/images/DrinksAlcolicos/SodaFrutasVermelhasLogo.webp"
+import Melancita from "../src/images/DrinksAlcolicos/MelancitaLogo.webp"
+import RedBullComVodka from "../src/images/DrinksAlcolicos/VodgaComEnegeticoLogo.webp"
+import CaipLimao from "../src/images/DrinksAlcolicos/CaipLimaoLogo.webp"
+import CaipMorango from "../src/images/DrinksAlcolicos/CaipMorangoLogo.webp"
+import CaiAbacaxi from "../src/images/DrinksAlcolicos/CaipAbacaxiLogo.webp"
+import Cosmopolitan from "../src/images/DrinksAlcolicos/CosmopolitanLogo.webp"
+import MoscowMule from "../src/images/DrinksAlcolicos/MoscowLogo.webp"
+import CloverClub from "../src/images/DrinksAlcolicos/CloverClobLogo.webp"
+import Carajillo from "../src/images/DrinksAlcolicos/CarajilloLogo.webp"
+import Negroni from "../src/images/DrinksAlcolicos/NegroniLogo.webp"
+import DryMartini from "../src/images/DrinksAlcolicos/DryMartinoiLogo.webp"
+import Margarita from "../src/images/DrinksAlcolicos/MargaritaLogo.webp"
+import AperolSpritz from "../src/images/DrinksAlcolicos/AperolLogo.webp"
+import HorsesNeck from "../src/images/DrinksAlcolicos/HorseNeck.webp"
+import GinTonica from "../src/images/DrinksAlcolicos/GinTonicaLogo.webp"
+import TropicalGin from "../src/images/DrinksAlcolicos/GinTropicalLogo.webp"
+import Antonio43 from "../src/images/DrinksAlcolicos/Antonio43Logo.webp"
+import Brambre from "../src/images/DrinksAlcolicos/BrambreLogo.webp"
+import CantoDaSereia from "../src/images/DrinksAlcolicos/CantoSereiLogo.webp"
+import IslandColler from "../src/images/DrinksAlcolicos/IslandColler.webp"
+import MagicPosion from "../src/images/DrinksAlcolicos/MagicPosionLogo.webp"
+import Poseidon from "../src/images/DrinksAlcolicos/PoseidonLogo.webp"
+import Tridente from "../src/images/DrinksAlcolicos/TridendeLogo.webp"
+import Tribuzana from "../src/images/DrinksAlcolicos/TribuzanaLogo.webp"
+import OldFashion from "../src/images/DrinksAlcolicos/Bulewardie.webp"
 
 // Imagens de Sobremesas
-import Pudim from "../src/images/Sobremesas/PudimModal.jpg"
-import GrandGateau from "../src/images/Sobremesas/GranGateauModal.jpg"
-import PetitGateau from "../src/images/Sobremesas/PettiGateauLogo.jpg"
-import Cocada from "../src/images/Sobremesas/CocadaLogo.jpg"
+import Pudim from "../src/images/Sobremesas/PudimModal.webp"
+import GrandGateau from "../src/images/Sobremesas/GranGateauModal.webp"
+import PetitGateau from "../src/images/Sobremesas/PettiGateauLogo.webp"
+import Cocada from "../src/images/Sobremesas/CocadaLogo.webp"
 
 
 export const Appetizer = [
@@ -221,13 +220,6 @@ export const Appetizers = [
     description: "Acompanha molho verde."
   },  
   {
-    title: "Aipim Frito",
-    value: "28,00",
-    image_url: AipimFrito,
-    state: "",
-    description: "Acompanha molho rosé."
-  },
-  {
     title: "Isca de Peixe Empanada",
     value: "54,00",
     image_url: IscaDePeixeEmpanada,
@@ -250,21 +242,21 @@ export const Appetizers = [
   },   
   {
     title: "Mini Pastel de Brie",
-    value: "52,00",
+    value: "42,00",
     image_url: MiniPastelDeBrie,
     state: "",
     description: "Acompanha geleia de pimenta."
   },  
   {
     title: "Mini Pastel de Camarão",
-    value: "56,00",
+    value: "46,00",
     image_url: MiniPastelDeCamarao,
     state: "",
     description: "Acompanha molho de pimenta."
   },  
   {
     title: "Camarão no Varal",
-    value: "89,00",
+    value: "96,00",
     image_url: CamaraoNoVaral,
     state: "",
     description: "Camarão empanado no panko acompanhado com molho de pimenta e molho verde."
@@ -368,7 +360,7 @@ export const Mains = [
     value: "92,00",
     image_url: "",
     state: "",
-    description: "Salmão grelhado ao molho de maracujá, purê de batata laranja, lula e tomates cerejas e legumes grelhados."
+    description: "Salmão grelhado ao molho de maracujá, purê de batata laranja e legumes grelhados."
   },
   {
     title: "Peixe na Crosta de Castanha",
@@ -1214,6 +1206,7 @@ export const WineTinto = [
 ]
 
 export const WineWhite = [
+  /*
   {
     title: "Becas Reserva Sauvignon Blanc",
     value: "154,00",
@@ -1228,12 +1221,27 @@ export const WineWhite = [
     state: "IT",
     description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar."
   },
+  */
   {
     title: "Callia Chardonnay",
     value: "160,00",
     image_url: "",
     state: "AR",
     description: "Uva: Chardonnay, apresenta aromas complexos, intensamente frutados, com notas de pêssegos e mel, em boca, uma experiência plena e ampla revela-se, com distinção de sabores frutados de abacaxi e pera, harmoniza com peixes assados ou grelhados, massas com molho branco ou recheadas com legumes e carnes suínas grelhadas."
+  },
+  {
+    title: "Astica Chardonnay & Chenin",
+    value: "154,00",
+    image_url: "",
+    state: "AR",
+    description: "Uva: Chardonnay e Chenin Blanc, aromas de frutas cítricas como abacaxi e maracujá, em boca leve, fresco, redondo e frutado, harmoniza com aperitivos, mariscos e queijos."
+  },
+  {
+    title: "Tantehue Sauvignon Blanc",
+    value: "154,00",
+    image_url: "",
+    state: "CL",
+    description: "Uva: Sauvignon Blanc, dono de um aroma rico em frutas com notas de morangos frescos, lichia, abacaxi e kiwi, em boca é fresco, intenso e suculento, que lembram também as frutas tropicais, harmoniza com pratos a base de frutos do mar, peixes e saladas."
   },
   {
     title: "Thera Sauvignon Blanc",
@@ -1252,12 +1260,21 @@ export const WineWhite = [
 ]
 
 export const WineRose = [
+  /*
   {
     title: "Conclave Reserva Rosé",
     value: "166,00",
     image_url: "",
     state: "AR",
     description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
+  },
+  */
+  {
+    title: "Astica Rosé",
+    value: "154,00",
+    image_url: "",
+    state: "AR",
+    description: "Uva: Malbec, aromas de frutas vermelhas e negras, em boca leve, frutado e fresco, harmoniza com aperitivos, pratos picantes, carnes brancas e peixes."
   },
   {
     title: "Becas Mediterranee Grenache Rosé",
@@ -1317,6 +1334,13 @@ export const Espumant = [
     image_url: "",
     state: "BR",
     description: "Uva: Chardonnay, pinot noir, macio, refrescante, acidez refrescante, harmoniza com frutos do mar, camarão, salmão, risotto de tomate seco e sushi"
+  },
+  {
+    title: "Ponto Nero Moscatel",
+    value: "159,00",
+    image_url: "",
+    state: "BR",
+    description: "Uva: Moscato, intenso aroma frutado, notas de flores brancas como jasmim e flor de laranjeira e delicada nuance de erva doce, em boca leve e frutado, sua elegante acidez permite um bom equilíbrio com o teor mais elevado de açúcar, harmoniza com sorvete, salada de frutas, pavê de tangerina e mousse de limão "
   },
   {
     title: "Chandon Brut",
