@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import HeaderBackgroundContainer from './HeaderBackgroundContainer';
 import ContainerLogo from './ContainerLogo';
-import ContainerIcons from './ContainerIcons';
 import HamburgerMenu from './HamburgerMenu';
 
 const HeaderContainer = styled.header`
@@ -64,9 +63,8 @@ const Header = ({ category, setSelectedCategory }) => {
   return (
     <>
       <HeaderContainer id="header-container">
-        <HeaderBackgroundContainer />
+       
         <ContainerLogo />
-        <ContainerIcons />
         <div ref={placeholderRef}></div> {/* Placeholder div to maintain layout height */}
         <div ref={headerRef} className={isFixed ? 'fixed' : 'header-content'}>
           <div id="containerH2">

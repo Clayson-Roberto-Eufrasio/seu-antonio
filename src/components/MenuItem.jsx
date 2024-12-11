@@ -20,6 +20,7 @@ const Title = styled.h3`
   font-weight: 800;
   color: white; 
   text-shadow: 2px 2px 5px black;
+  margin-top: 4px;
 `;
 
 const Price = styled.span`

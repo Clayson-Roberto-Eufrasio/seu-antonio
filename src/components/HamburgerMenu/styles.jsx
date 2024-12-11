@@ -5,7 +5,7 @@ import fundoMenu from '../../images/fundoMenuPequeno.jpg';
 export const HamburgerMenuStyled = styled.div`
   .hamburger-menu {
     position: absolute;
-    top: 147px;
+    top: 171px;
     right: 15px;
     z-index: 1000;
   }

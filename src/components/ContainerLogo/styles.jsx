@@ -1,35 +1,33 @@
 // src/components/ContainerLogo/styles.jsx
 import styled from "styled-components";
+import pratoPoseidon from "../../images/ParaCompartilhar/PseidonLogo.webp"
 
 export const ContainerLogoStyled = styled.div`
+  height: 110px;
   display: flex;
   position: relative;
+  flex-direction: column;
+  justify-content: center;
   z-index: 21;
   padding: 19px;
   margin-top: 6px;
-  background-color: rgb(255, 255, 255); 
+  background-image: url(${pratoPoseidon});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -63px;
 
-  h4 {
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 150%;
-    color: rgb(48, 51, 60);
+  h1, h2 {
     margin: 0px;
+    color: white;
+    text-shadow: 8px 8px 6px rgba(0, 0, 0, 1);
   }
 
-  .corpoDoContainerDeLogo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+  h1 {
+    font-size: 42px;
   }
 
-  .logoSeu {
-    width: 52px;
-  }
-
-  .logoAntonio {
-    width: 110px;
+  h2 {
+    font-size: 22px;
   }
 
 `
