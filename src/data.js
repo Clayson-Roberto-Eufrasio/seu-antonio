@@ -182,15 +182,16 @@ export const Appetizer = [
     description: "Camarões ao bafo finalizado com azeite de ervas."
   },
   {
-    title: "Ostras a Milanesa",
-    value: "69,00",
+    title: "Ostras ao Alho e Óleo",
+    value: "62,00",
     image_url: "",
     state: "",
     description: "12 Unid. Consultar disponibilidade."
   },
+  /*
   {
-    title: "Ostras ao Alho e Óleo",
-    value: "62,00",
+    title: "Ostras a Milanesa",
+    value: "69,00",
     image_url: "",
     state: "",
     description: "12 Unid. Consultar disponibilidade."
@@ -202,6 +203,7 @@ export const Appetizer = [
     state: "",
     description: "Ostras in natura, ao bafo, gratinada, alho e óleo, milanesa, vinagrete 6 unidades de cada."
   },
+  */
 ]
 
 export const Appetizers = [
@@ -280,7 +282,7 @@ export const Appetizers = [
 export const Mains = [
   {
     title: "Bacalhau Confitado à Portuguesa",
-    value: "119,00",
+    value: "129,00",
     image_url: BacalhauConfitado,
     state: "",
     description: "Bacalhau e legumes confitados em azeite extra virgem com purê de batata."
@@ -329,7 +331,7 @@ export const Mains = [
   },
   {
     title: "Gnocchi de Batata com Ragu de Mignon",
-    value: "89,00",
+    value: "92,00",
     image_url: GnocchiDeBatata,
     state: "",
     description: "Ragu de filé mignon com manjericão, pomodoro farofa de pangrattato e queijo parmesão."
@@ -385,7 +387,7 @@ export const Mains = [
   },
   {
     title: "Conchiglioni ao Frutos do Mar",
-    value: "92,00",
+    value: "99,00",
     image_url: "",
     state: "",
     description: "Polvo, camarão, lula, mexilhões ao molho de pomodoro."
@@ -513,7 +515,7 @@ export const Desserts = [
   },
   {
     title: "Pudim com Doce de Leite",
-    value: "30,00",
+    value: "39,00",
     image_url: Pudim,
     state: "",
     description: ""
