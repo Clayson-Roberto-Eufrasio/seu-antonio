@@ -5,7 +5,7 @@ import fundoMenu from '../../images/fundoMenuPequeno.jpg';
 export const HamburgerMenuStyled = styled.div`
   .hamburger-menu {
     position: absolute;
-    top: 171px;
+    top: 123px;
     right: 15px;
     z-index: 1000;
   }
@@ -31,6 +31,7 @@ export const HamburgerIcon = styled.div`
     height: 3px;
     background-color: white;
     transition: all 0.3s ease-in-out;
+    box-shadow: 4px 4px 4px black;
   }
 
   &.open div:nth-child(1) {
