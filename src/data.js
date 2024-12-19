@@ -244,14 +244,14 @@ export const Appetizers = [
   },   
   {
     title: "Mini Pastel de Brie",
-    value: "42,00",
+    value: "52,00",
     image_url: MiniPastelDeBrie,
     state: "",
     description: "Acompanha geleia de pimenta."
   },  
   {
     title: "Mini Pastel de Camarão",
-    value: "46,00",
+    value: "56,00",
     image_url: MiniPastelDeCamarao,
     state: "",
     description: "Acompanha molho de pimenta."
