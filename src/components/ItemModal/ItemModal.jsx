@@ -1,7 +1,8 @@
 // src/components/ItemModal.jsx
 import React from 'react';
 import Modal from 'react-modal';
-import CorpoDoModal from './CorpoDoModal';
+import { useAuth } from '../contexts/AuthContext';
+import { BodyModal } from './styles';
 
 // Estilos personalizados para o modal
 const customStyles = {
@@ -23,21 +24,28 @@ const customStyles = {
     }
 };
 
-
-
 // Componente ItemModal para exibir os detalhes do item selecionado em um modal
-const ItemModal = ({ isOpen, onRequestClose, item }) => {
+const ItemModal = ({ item }) => {
+  const { isOpen, stateModalClose } = useAuth()
+
   if (!item) return null; // Se nenhum item estiver selecionado, não renderiza o modal
 
   return (
     <Modal
       isOpen={isOpen} // Controla se o modal está aberto
-      onRequestClose={onRequestClose} // Função para fechar o modal
+      onRequestClose={stateModalClose} // Função para fechar o modal
       contentLabel="Item Details" // Rótulo para acessibilidade
       ariaHideApp={false} // Desativa a ocultação da aplicação principal (necessário para evitar erros de acessibilidade)
       style={customStyles} // Aplica os estilos personalizados
     >
-      <CorpoDoModal item={item} requestModal={onRequestClose}/>
+      <BodyModal>
+        <div>
+          <h1>{item.title}</h1>
+          <button onClick={stateModalClose}>X</button>
+        </div>
+        <p>{item.description}</p>
+        <img src={item.image_url} alt={item.title} />
+      </BodyModal>
     </Modal>
   );
 };

@@ -15,7 +15,6 @@ const HeaderContainer = styled.header`
 
 const Header = ({ category, setSelectedCategory }) => {
 
-
   return (
     <>
       <HeaderContainer id="header-container">

@@ -2,6 +2,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Flag from "react-world-flags"
+import ItemModal from './ItemModal/ItemModal';
+import { useAuth } from './contexts/AuthContext';
 
 const CardContainer = styled.div`
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
@@ -50,23 +52,27 @@ const Description = styled.p`
 `;
 
 const MenuItem = ({ item }) => {
+  const {stateModalOpen, thisIsItem} = useAuth()
 
   return (
-    <CardContainer>
-      <Title>{item.title}</Title>
-      <div className='bodyOfItem'>
-        {item.image_url ? (
-          <img loading="lazy" src={item.image_url} alt={item.title} style={{ width: '100px', height: 'auto', borderRadius: '10px' }} />
-        ) : (
-          <></>
-        )}
-        <div>
-          <Description>{item.description}</Description>
-          <Price>R$ {item.value}</Price>
-          <Flag code={item.state} style={{ width: 24, height: 17, marginLeft: 10, marginTop: 5 }}/>
+    <>
+      <CardContainer onClick={() => { stateModalOpen(item) }}>
+        <Title>{item.title}</Title>
+        <div className='bodyOfItem'>
+          {item.image_url ? (
+            <img loading="lazy" src={item.image_url} alt={item.title} style={{ width: '100px', height: 'auto', borderRadius: '10px' }} />
+          ) : (
+            <></>
+          )}
+          <div>
+            <Description>{item.description}</Description>
+            <Price>R$ {item.value}</Price>
+            <Flag code={item.state} style={{ width: 24, height: 17, marginLeft: 10, marginTop: 5 }}/>
+          </div>
         </div>
-      </div>
-    </CardContainer>
+      </CardContainer>
+      <ItemModal item={thisIsItem}/>
+    </>
   );
 };
 
