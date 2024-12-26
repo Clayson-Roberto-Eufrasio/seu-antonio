@@ -2,11 +2,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import { ContainerLogoStyled } from "./styles"
 import HamburgerMenu from "../HamburgerMenu/index.jsx";
+import { useAuth } from "../contexts/AuthContext.jsx"
 
 const ContainerLogo = ({category, setSelectedCategory}) => {
   const [isFixed, setIsFixed] = useState(false);
   const headerRef = useRef(null);
   const placeholderRef = useRef(null);
+
+  const { thisIsImageHeader } = useAuth()
 
   const handleScroll = () => {
     if (headerRef.current && placeholderRef.current) {
@@ -23,7 +26,7 @@ const ContainerLogo = ({category, setSelectedCategory}) => {
   }, []);
 
   return (
-    <ContainerLogoStyled className='containerLogo'>
+    <ContainerLogoStyled backgroundImage={thisIsImageHeader} className='containerLogo'>
       <h2>Nosso Magnífico</h2>
       <h1>Cardápio</h1>
       <h3>de</h3>

@@ -2,11 +2,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { HamburgerIcon, HamburgerMenuStyled, MenuContent } from './styles';
 import { categoryTranslations } from '../../utils/categoryTranslations';
+import { useAuth } from '../contexts/AuthContext';
 
 const HamburgerMenu = ({ setSelectedCategory, nameHanburguer }) => {
   const [isOpen, setIsOpen] = useState(false);
   const categories = Object.keys(categoryTranslations);
   const menuRef = useRef(null);
+
+  const { toggleBetweenHeaderImages } = useAuth() 
 
   const scrollToTop = () => window.scrollTo({ top: 150, behavior: 'smooth' });
   const scrollToTopFull = () => window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -51,6 +54,8 @@ const HamburgerMenu = ({ setSelectedCategory, nameHanburguer }) => {
                     e.preventDefault();
                     setSelectedCategory(category);
                     toggleMenuClose();
+                    toggleBetweenHeaderImages(category)
+                    console.log(category)
                   }}
                 >
                   {categoryTranslations[category]}
