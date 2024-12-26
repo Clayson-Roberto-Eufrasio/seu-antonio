@@ -1,4 +1,3 @@
-// src/utils/categoryTranslations.js
 export const categoryTranslations = {
     Appetizer: "Aperitivos",
     Appetizers: 'Entradas',

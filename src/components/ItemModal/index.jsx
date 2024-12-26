@@ -7,20 +7,20 @@ import { BodyModal } from './styles';
 // Estilos personalizados para o modal
 const customStyles = {
     content: {
-      top: '50%', // Centraliza o modal verticalmente
-      left: '50%', // Centraliza o modal horizontalmente
-      right: 'auto', // Desativa o ajuste automático do lado direito
-      bottom: 'auto', // Desativa o ajuste automático da parte inferior
-      marginRight: '-50%', // Ajuste necessário para a centralização
-      transform: 'translate(-50%, -50%)', // Move o modal para centralizá-lo
-      padding: '20px', // Adiciona padding interno
-      backgroundColor: '#fff', // Cor de fundo do conteúdo do modal
-      borderRadius: '10px', // Adiciona bordas arredondadas
-      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Adiciona sombra
+      top: '50%', 
+      left: '50%', 
+      right: 'auto', 
+      bottom: 'auto', 
+      marginRight: '-50%', 
+      transform: 'translate(-50%, -50%)', 
+      padding: '20px', 
+      backgroundColor: '#fff', 
+      borderRadius: '10px', 
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
     },
     overlay: {
       zIndex: 8000,
-      backgroundColor: 'rgba(0, 0, 0, 0.75)' // Cor de fundo do overlay (fundo)
+      backgroundColor: 'rgba(0, 0, 0, 0.75)' 
     }
 };
 

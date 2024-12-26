@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import GlobalStyles from './GlobalStyles';
 import Header from './components/Header';
 import MenuList from './components/MenuList';
-import { categoryTranslations } from '../src/utils/categoryTranslations'; // Importa as traduções
+import { categoryTranslations } from './utils/categoryTranslations'; // Importa as traduções
 
 import {
   Appetizer,
