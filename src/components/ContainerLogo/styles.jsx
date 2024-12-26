@@ -54,4 +54,11 @@ export const ContainerLogoStyled = styled.div`
     align-items: center;
   }
 
+  .logoSeuAntonio {
+    width: 21px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+  }
+
 `

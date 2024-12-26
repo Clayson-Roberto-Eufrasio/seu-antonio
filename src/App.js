@@ -54,7 +54,7 @@ const App = () => {
 
  
   return (
-    <div>
+    <div className='divCentral'>
       <GlobalStyles />
       <Header category={categoryTranslations[selectedCategory]} setSelectedCategory={setSelectedCategory}/>
       <MenuList items={dataCategories[selectedCategory]} />

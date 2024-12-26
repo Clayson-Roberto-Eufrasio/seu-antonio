@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { ContainerLogoStyled } from "./styles"
 import HamburgerMenu from "../HamburgerMenu/index.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx"
+import LogoSeuAntonio from "../../images/logoSeuAntonio.webp"
 
 const ContainerLogo = ({category, setSelectedCategory}) => {
   const [isFixed, setIsFixed] = useState(false);
@@ -27,6 +28,7 @@ const ContainerLogo = ({category, setSelectedCategory}) => {
 
   return (
     <ContainerLogoStyled backgroundImage={thisIsImageHeader} className='containerLogo'>
+      <img src={LogoSeuAntonio} alt="Logo Seu Antônio" className="logoSeuAntonio" />
       <h2>Nosso Magnífico</h2>
       <h1>Cardápio</h1>
       <h3>de</h3>
