@@ -1,6 +1,6 @@
 // src/components/HamburgerMenu/styles.jsx
 import styled from 'styled-components';
-import fundoMenu from '../../images/fundoMenuPequeno.jpg';
+import PorDoSolSeuAntonio from '../../images/porDoSolSeuAntonio.webp';
 
 export const HamburgerMenuStyled = styled.div`
   .hamburger-menu {
@@ -54,7 +54,7 @@ export const MenuContent = styled.div`
   position: fixed;
   top: 87px;
   right: 6px;
-  background-image: url(${fundoMenu});
+  background-image: url(${PorDoSolSeuAntonio});
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
