@@ -244,7 +244,7 @@ export const Appetizers = [
   },   
   {
     title: "Mini Pastel de Brie",
-    value: "52,00",
+    value: "42,00",
     image_url: MiniPastelDeBrie,
     state: "",
     description: "Acompanha geleia de pimenta."
@@ -372,11 +372,11 @@ export const Mains = [
     description: "Acompanhado com purê de banana doce, com brócolis grelhados."
   },
   {
-    title: "Barba Negra",
+    title: "Linguado ao Molho de Ervas",
     value: "92,00",
     image_url: "",
     state: "",
-    description: "Linguado grelhado, acompanha massa nero ao molho de ervas frescas."
+    description: "Linguado grelhado, acompanha massa fetuccine ao molho de ervas frescas."
   },
   {
     title: "Entrecot Seu Antônio",
@@ -414,7 +414,7 @@ export const ToShare = [
     value: "269,00",
     image_url: MoquecaMista,
     state: "",
-    description: "Peixe, Camarões, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz de coco e aipim."
+    description: "Peixe, Camarões, cebola, pimentões, tomate, azeite de dendê, leite de coco, coentro, acompanha arroz de coco e batata frita."
   },
   {
     title: "Paella de Frutos do Mar",
