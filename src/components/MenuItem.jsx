@@ -54,7 +54,10 @@ const MenuItem = ({ item }) => {
       )}
       <Description>{item.description}</Description>
       <Flag code={item.state} style={{ width: 24, height: 17}}/>
-      <Price>R$ {item.value}</Price>
+      <Price>{new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+      }).format(item.value)}</Price>
     </CardContainer>
   );
 };
