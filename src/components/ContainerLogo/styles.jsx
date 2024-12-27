@@ -1,4 +1,3 @@
-// src/components/ContainerLogo/styles.jsx
 import styled from "styled-components";
 
 export const ContainerLogoStyled = styled.div`
@@ -9,7 +8,7 @@ export const ContainerLogoStyled = styled.div`
   justify-content: center;
   z-index: 21;
   padding: 19px 19px 0px 19px;
-  background-image: url(${(props) => props.backgroundImage});
+  background-image: url(${( props ) => props.backgroundImage });
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -63px;

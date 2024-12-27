@@ -26,25 +26,25 @@ const customStyles = {
 
 // Componente ItemModal para exibir os detalhes do item selecionado em um modal
 const ItemModal = ({ item }) => {
-  const { isOpen, stateModalClose } = useAuth()
+  const { isOpenModal, stateModalClose } = useAuth()
 
-  if (!item) return null; // Se nenhum item estiver selecionado, não renderiza o modal
+  if ( !item ) return null; // Se nenhum item estiver selecionado, não renderiza o modal
 
   return (
     <Modal
-      isOpen={isOpen} // Controla se o modal está aberto
-      onRequestClose={stateModalClose} // Função para fechar o modal
+      isOpen={ isOpenModal } // Controla se o modal está aberto
+      onRequestClose={ stateModalClose } // Função para fechar o modal
       contentLabel="Item Details" // Rótulo para acessibilidade
-      ariaHideApp={false} // Desativa a ocultação da aplicação principal (necessário para evitar erros de acessibilidade)
-      style={customStyles} // Aplica os estilos personalizados
+      ariaHideApp={ false } // Desativa a ocultação da aplicação principal (necessário para evitar erros de acessibilidade)
+      style={ customStyles } // Aplica os estilos personalizados
     >
       <BodyModal>
         <div>
-          <h1>{item.title}</h1>
-          <button onClick={stateModalClose}>X</button>
+          <h1>{ item.title }</h1>
+          <button onClick={ stateModalClose }>X</button>
         </div>
-        <p>{item.description}</p>
-        <img src={item.image_url} alt={item.title} />
+        <p>{ item.description }</p>
+        <img src={ item.image_url } alt={ item.title } />
       </BodyModal>
     </Modal>
   );

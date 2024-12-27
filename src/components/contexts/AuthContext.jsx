@@ -1,4 +1,4 @@
-import React, { createContext, useContext , useState } from "react";
+import React, { createContext, useContext , useRef, useState } from "react";
 
 import BruchettaPolvo from "../../images/Aperitivos/BruchettaPolvoLogo.webp"
 import PoseidonReiDosMares from "../../images/ParaCompartilhar/PseidonLogo.webp"
@@ -15,89 +15,97 @@ const AuthContext = createContext()
 
 // Provedor do contexto 
 export const AuthProvider = ({ children }) => {
-    const [isOpen, setIsOpen] = useState(false)
-    const [thisIsItem, setThisIsItem] = useState("")
-    const [thisIsImageHeader, setThisIsImageHeader] = useState(CamaraoNoVAral)
+    const [ isOpenModal, setIsOpenModal ] = useState( false ) // Define se o modal eata aberto
+    const [ isOpenMenu, setIsOpenMenu ] = useState(false); // Define se o menu hamberguer esta aberto
+    const [ thisIsItem, setThisIsItem ] = useState("")
+    const [ thisIsImageHeader, setThisIsImageHeader ] = useState( CamaraoNoVAral ) // Define a imagem que sera direcionado no background do header
+    const [ isFixed, setIsFixed ] = useState( false ); // Define se a div como a categoria fica fixa no topo da tela
     
-    const stateModalOpen = (item) => {
-        if(item.image_url) {
-            setIsOpen(!isOpen)
-            setThisIsItem(item)
+    const menuRef = useRef( null );
+    
+    const stateModalOpen = ( item ) => {
+        if( item.image_url ) {
+            setIsOpenModal( !isOpenModal )
+            setThisIsItem( item )
         }
     }
 
     const stateModalClose = () => {
-        setIsOpen(!isOpen)
+        setIsOpenModal( !isOpenModal )
     }
 
-    const toggleBetweenHeaderImages = (category) => {
-        switch(category) {
+    const toggleBetweenHeaderImages = ( category ) => {
+        switch( category ) {
             case "Appetizer":
-                setThisIsImageHeader(BruchettaPolvo);
+                setThisIsImageHeader( BruchettaPolvo );
                 break;
             case "Appetizers":
-                setThisIsImageHeader(CamaraoNoVAral);
+                setThisIsImageHeader( CamaraoNoVAral );
                 break;
             case "Mains":
-                setThisIsImageHeader(SalmaoAValenciana);
+                setThisIsImageHeader( SalmaoAValenciana );
                 break;            
             case "ToShare": 
-                setThisIsImageHeader(PoseidonReiDosMares);
+                setThisIsImageHeader( PoseidonReiDosMares );
                 break;
             case "Kids":
-                setThisIsImageHeader(PoseidonReiDosMares)
+                setThisIsImageHeader( PoseidonReiDosMares )
                 break;
             case "Desserts":
-                setThisIsImageHeader(GranGateau);
+                setThisIsImageHeader( GranGateau );
                 break;            
             case "ClassicDrinks":
-                setThisIsImageHeader(MoscowMule);
+                setThisIsImageHeader( MoscowMule );
                 break;
             case "Exclusive":
-                setThisIsImageHeader(TridenteDrink);
+                setThisIsImageHeader( TridenteDrink );
                 break;            
             case "SoftDrinks": 
-                setThisIsImageHeader(GinTonica);
+                setThisIsImageHeader( GinTonica );
                 break;
             case "NonAlcoholicDrinks":
-                setThisIsImageHeader(SodaItaliana)
+                setThisIsImageHeader( SodaItaliana )
                 break;
             case "Beers":
-                setThisIsImageHeader(CamaraoNoVAral);
+                setThisIsImageHeader( CamaraoNoVAral );
                 break;
             case "Doses":
-                setThisIsImageHeader(BruchettaPolvo);
+                setThisIsImageHeader( BruchettaPolvo );
                 break;
             case "Bottles":
-                setThisIsImageHeader(SalmaoAValenciana);
+                setThisIsImageHeader( SalmaoAValenciana );
                 break;            
             case "Combos": 
-                setThisIsImageHeader(PoseidonReiDosMares);
+                setThisIsImageHeader( PoseidonReiDosMares );
                 break;
             case "Espumant":
-                setThisIsImageHeader(PoseidonReiDosMares)
+                setThisIsImageHeader( PoseidonReiDosMares )
                 break;
             case "Champagnes":
-                setThisIsImageHeader(GranGateau);
+                setThisIsImageHeader( GranGateau );
                 break;            
             case "WineWhite":
-                setThisIsImageHeader(MoscowMule);
+                setThisIsImageHeader( MoscowMule );
                 break;
             case "WineRose":
-                setThisIsImageHeader(TridenteDrink);
+                setThisIsImageHeader( TridenteDrink );
                 break;            
             case "WineTinto": 
-                setThisIsImageHeader(GinTonica);
+                setThisIsImageHeader( GinTonica );
                 break;
             default:
-                setThisIsImageHeader(thisIsImageHeader);
+                setThisIsImageHeader( thisIsImageHeader );
                 break;               
         }
     }
 
     return (
         <AuthContext.Provider 
-        value={{ isOpen, thisIsItem, thisIsImageHeader,  stateModalOpen, stateModalClose, toggleBetweenHeaderImages }}>
+        value={{ 
+            isOpenModal, thisIsItem, thisIsImageHeader, isFixed, isOpenMenu,
+            stateModalOpen, stateModalClose, setIsFixed, setIsOpenMenu,
+            toggleBetweenHeaderImages, menuRef,
+            }}>
             { children }
         </AuthContext.Provider>
     )
