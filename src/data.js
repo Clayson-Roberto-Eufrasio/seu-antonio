@@ -643,13 +643,6 @@ export const ClassicDrinks = [
     description: "Gin, purê de framboesa, suco de limão siciliano, aquafaba."
   },
   {
-    title: "Horses Neck",
-    value: 37,
-    image_url: HorsesNeck,
-    state: "",
-    description: "Brandy miolo 15 anos, suco de gengibre, suco de limão siciliano, xarope demerara, água com gás."
-  },
-  {
     title: "Carajillo",
     value: 48,
     image_url: Carajillo,
@@ -733,6 +726,15 @@ export const ClassicDrinks = [
     state: "",
     description: "Brandy, xarope flor de sabugueiro, suco de limão taíti e chá tropical gaseificado."
   },
+  /*
+    {
+    title: "Horses Neck",
+    value: 37,
+    image_url: HorsesNeck,
+    state: "",
+    description: "Brandy miolo 15 anos, suco de gengibre, suco de limão siciliano, xarope demerara, água com gás."
+  },
+  */ 
 ]
 
 export const Exclusive = [
@@ -1208,22 +1210,6 @@ export const WineTinto = [
 ]
 
 export const WineWhite = [
-  /*
-  {
-    title: "Becas Reserva Sauvignon Blanc",
-    value: 154,
-    image_url: "",
-    state: "CL",
-    description: "Uva: Sauvignon Blanc, notas de frutas tropicais e cítricas, especialmente de maracujá perfeitamente balanceado com pêssego, em boca ressalta os aromas do olfato e traz uma acidez refrescante, harmoniza com mariscos, salada poke e vegetais grelhados."
-  },
-  {
-    title: "Becas Delle Venezie DOC Pinot Grigio",
-    value: 169,
-    image_url: "",
-    state: "IT",
-    description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar."
-  },
-  */
   {
     title: "Callia Chardonnay",
     value: 160,
@@ -1232,18 +1218,25 @@ export const WineWhite = [
     description: "Uva: Chardonnay, apresenta aromas complexos, intensamente frutados, com notas de pêssegos e mel, em boca, uma experiência plena e ampla revela-se, com distinção de sabores frutados de abacaxi e pera, harmoniza com peixes assados ou grelhados, massas com molho branco ou recheadas com legumes e carnes suínas grelhadas."
   },
   {
+    title: "Passatempo",
+    value: 150,
+    image_url: "",
+    state: "PT",
+    description: "Uva: Arinto, Loureiro e Trajadura, notas minerais e de frutas maduras como limão, em boca corpo leve, delicado, elegante e com toques minerais, harmoniza com saladas, carnes brancas, tapas e outros pratos discretos e bem leves."
+  },
+  {
+    title: "Perereca do Monte",
+    value: 160,
+    image_url: "",
+    state: "PT",
+    description: "Uva: Arinto, Bical, Fernão Pires, aroma predominantemente cítrico, com toques de flores brancas. Em boca, o vinho apresenta frescor e mineralidade, com sabores que repetem as frutas cítricas, harmoniza com carnes brancas grelhadas, saladas e frutos do mar."
+  },
+  {
     title: "Astica Chardonnay & Chenin",
     value: 154,
     image_url: "",
     state: "AR",
     description: "Uva: Chardonnay e Chenin Blanc, aromas de frutas cítricas como abacaxi e maracujá, em boca leve, fresco, redondo e frutado, harmoniza com aperitivos, mariscos e queijos."
-  },
-  {
-    title: "Tantehue Sauvignon Blanc",
-    value: 154,
-    image_url: "",
-    state: "CL",
-    description: "Uva: Sauvignon Blanc, dono de um aroma rico em frutas com notas de morangos frescos, lichia, abacaxi e kiwi, em boca é fresco, intenso e suculento, que lembram também as frutas tropicais, harmoniza com pratos a base de frutos do mar, peixes e saladas."
   },
   {
     title: "Thera Sauvignon Blanc",
@@ -1259,24 +1252,59 @@ export const WineWhite = [
     state: "FR",
     description: "Uva: Chardonnay, muito puro que remete a frutas cítricas, flores brancas e uma nota de pedra molhada muito típica de chablis. Em boca elegante em uma combinação de notas de amêndoas e encantadora vivacidade, harmoniza com entradas, peixes variados, comida japonesa."
   },
+  /*
+  {
+    title: "Becas Reserva Sauvignon Blanc",
+    value: 154,
+    image_url: "",
+    state: "CL",
+    description: "Uva: Sauvignon Blanc, notas de frutas tropicais e cítricas, especialmente de maracujá perfeitamente balanceado com pêssego, em boca ressalta os aromas do olfato e traz uma acidez refrescante, harmoniza com mariscos, salada poke e vegetais grelhados."
+  },
+  {
+    title: "Becas Delle Venezie DOC Pinot Grigio",
+    value: 169,
+    image_url: "",
+    state: "IT",
+    description: "Uva: Pinot Grigio, traz um buquê intenso de aromas, com predominância de frutas como lima, lichia, limão siciliano e flores brancas como jasmim, em boca ressalta os aromas, com toque de frutas, refrescante acidez e sutil mineralidade, harmoniza com camarão empanado, burrata e frutos do mar."
+  },
+  {
+    title: "Tantehue Sauvignon Blanc",
+    value: 154,
+    image_url: "",
+    state: "CL",
+    description: "Uva: Sauvignon Blanc, dono de um aroma rico em frutas com notas de morangos frescos, lichia, abacaxi e kiwi, em boca é fresco, intenso e suculento, que lembram também as frutas tropicais, harmoniza com pratos a base de frutos do mar, peixes e saladas."
+  },
+  */
 ]
 
 export const WineRose = [
-  /*
-  {
-    title: "Conclave Reserva Rosé",
-    value: 166,
-    image_url: "",
-    state: "AR",
-    description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
-  },
-  */
   {
     title: "Astica Rosé",
     value: 154,
     image_url: "",
     state: "AR",
     description: "Uva: Malbec, aromas de frutas vermelhas e negras, em boca leve, frutado e fresco, harmoniza com aperitivos, pratos picantes, carnes brancas e peixes."
+  },
+  {
+    title: "Conclave Reserva Rose",
+    value: 169,
+    image_url: "",
+    state: "AR",
+    description: "Uva: Pinot Noir, aroma de frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume no meio da boca e final longo, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
+  },
+  {
+    title: "Passatempo",
+    value: 150,
+    image_url: "",
+    state: "PT",
+    description: "Uva: Uvas variadas, aroma de frutas vermelhas frescas, em boca leve, equilibrado, frutado e fácil de beber, harmoniza com aperitivos, saladas, sopas ou com uma tarde relaxando na rede."
+  },
+  {
+    title: "Perereca do Monte",
+    value: 160,
+    image_url: "",
+    state: "PT",
+    description: "Uva: Touriga Nacional, Tinta Roriz e Alfrocheiro, aromas de frutos do bosque com um toque exótico e especiado, em boca mantém a frescura com sabores que remetem às frutas do bosque, harmoniza com canapés, carnes brancas e vermelhas leves grelhadas, queijos de pasta mole e frutos do mar."
   },
   {
     title: "Becas Mediterranee Grenache Rosé",
@@ -1320,6 +1348,15 @@ export const WineRose = [
     state: "BR",
     description: "Uva: Cabeenet franc, cabernet sauvignon, merlot malbac, sangiovese, syrah, petit verdot e pinot noir, leve, fresco e delicado, harmoniza com ostras, camarão grelhado, peixes com molhos suaves e canapés"
   },
+  /*
+  {
+    title: "Conclave Reserva Rosé",
+    value: 166,
+    image_url: "",
+    state: "AR",
+    description: "Uva: Pinot Noir, boa expressão aromática, frutas frescas, notas florais e de caramelo, em boca equilibrado, com bom volume, destacam-se sua frescura e persistência, harmoniza com petiscos, carnes de frango e porco, algumas carnes vermelhas (cortes magros), salada de camarões, mariscos, peixes magros e gordurosos."
+  },
+  */
 ]
 
 export const Espumant = [
