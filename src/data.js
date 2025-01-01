@@ -1232,6 +1232,13 @@ export const WineWhite = [
     description: "Uva: Arinto, Bical, Fernão Pires, aroma predominantemente cítrico, com toques de flores brancas. Em boca, o vinho apresenta frescor e mineralidade, com sabores que repetem as frutas cítricas, harmoniza com carnes brancas grelhadas, saladas e frutos do mar."
   },
   {
+    title: "Reina Rey Torrontés",
+    value: 162,
+    image_url: "",
+    state: "AR",
+    description: ""
+  },
+  {
     title: "Astica Chardonnay & Chenin",
     value: 154,
     image_url: "",
